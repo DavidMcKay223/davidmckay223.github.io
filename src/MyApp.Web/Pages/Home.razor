@@ -2,7 +2,7 @@
 
 <PageTitle>Home</PageTitle>
 
-<h1>Welcome to David McKay</h1>
+<h1>David McKay</h1>
 
 <div class="container">
     <div class="row">
@@ -43,28 +43,58 @@
             <h4>Bill Review Engine</h4>
             <p>Backend | .NET | C# | SQL | LINQ | Web Service</p>
 
-            <strong>New Framework Design:</strong>
-            <ul>
-                <li> Developed a scalable framework on top of existing code base, using C# and .NET, reducing state-specific code by 80%, via delegates and class extensions.</li>
-            </ul>
-
-            <strong>Improved Unit Testing:</strong>
-            <ul>
-                <li> Automated test results for JIRA reporting. Enhanced execution time by 80% faster results, utilizing asserts collection and smart test driven development.</li>
-            </ul>
+            @foreach (var billReviewSkill in BillReviewSkillCategories)
+            {
+                <strong>@billReviewSkill.Name</strong>
+                <ul>
+                    @foreach (var description in billReviewSkill.Skills)
+                    {
+                        <li>@description</li>
+                    }
+                </ul>
+            }
 
             <h4>Report Module</h4>
             <p>Frontend | Backend | .NET | C# | SQL | LLBLGEN | Telerik</p>
 
-            <strong>Automated Reporting System:</strong>
-            <ul>
-                <li> Designed and developed a full-stack solution to automate company reports, enabling users to schedule subscriptions or run reports on-demand.</li>
-            </ul>
+            @foreach (var reportModuleSkill in ReportModuleSkillCategories)
+            {
+                <strong>@reportModuleSkill.Name</strong>
+                <ul>
+                    @foreach (var description in reportModuleSkill.Skills)
+                    {
+                        <li>@description</li>
+                    }
+                </ul>
+            }
 
-            <strong>Access Control:</strong>
-            <ul>
-                <li> Implemented Access Control Lists (ACLs) to ensure data integrity and restrict report access based on user roles.</li>
-            </ul>
+            <h4>PanDora - Authentication</h4>
+            <p>Frontend | Backend | .NET | C# | SQL | LLBLGEN | Telerik</p>
+
+            @foreach (var pandoraSkill in PandoraSkillCategories)
+            {
+                <strong>@pandoraSkill.Name</strong>
+                <ul>
+                    @foreach (var description in pandoraSkill.Skills)
+                    {
+                        <li>@description</li>
+                    }
+                </ul>
+            }
+
+            <h4>Pharmacy Benefit Management System</h4>
+            <p>Frontend | Backend | .NET | C# | SQL | LLBLGEN | Telerik</p>
+
+            @foreach (var pbmSkill in PbmSkillCategories)
+            {
+                <strong>@pbmSkill.Name</strong>
+                <ul>
+                    @foreach (var description in pbmSkill.Skills)
+                    {
+                        <li>@description</li>
+                    }
+                </ul>
+            }
 
             <h2>Education</h2>
             <p>Arizona State University, Tempe, AZ — BS in Computer Science, Graduated 2016, GPA 3.51</p>
@@ -82,17 +112,46 @@
 @code {
     public class SkillCategory
     {
-        public string Name { get; set; }
-        public List<string> Skills { get; set; }
+        public required string Name { get; set; }
+        public List<string> Skills { get; set; } = [];
     }
 
     private List<SkillCategory> SkillCategories = new List<SkillCategory>()
     {
-        new SkillCategory { Name = "Core Technologies", Skills = new List<string> { "C#", ".NET 9 / .NET Core", "Blazor", "Java", "C/C++" } },
-        new SkillCategory { Name = "Web & API Development", Skills = new List<string> { "Web API", "Bootstrap", "Razor Pages", "SOAP", "RESTful" } },
-        new SkillCategory { Name = "Database & ORM", Skills = new List<string> { "Entity Framework", "SQL", "LINQ" } },
-        new SkillCategory { Name = "Testing & Validation", Skills = new List<string> { "XUnit", "Bogus", "Shouldly", "FluentValidation" } },
-        new SkillCategory { Name = "Tools & Collaboration", Skills = new List<string> { "Git", "SVN", "JIRA" } },
-        new SkillCategory { Name = "Data & Utilities", Skills = new List<string> { "JSON", "XML", "AutoMapper", "Newtonsoft Json", "T4" } }
+        new () { Name = "Core Technologies", Skills = new List<string> { "C#", ".NET 9 / .NET Core", "Blazor", "Java", "C/C++" } },
+        new () { Name = "Web & API Development", Skills = new List<string> { "Web API", "Bootstrap", "Razor Pages", "SOAP", "RESTful" } },
+        new () { Name = "Database & ORM", Skills = new List<string> { "Entity Framework", "SQL", "LINQ" } },
+        new () { Name = "Testing & Validation", Skills = new List<string> { "XUnit", "Bogus", "Shouldly", "FluentValidation" } },
+        new () { Name = "Tools & Collaboration", Skills = new List<string> { "Git", "SVN", "JIRA" } },
+        new () { Name = "Data & Utilities", Skills = new List<string> { "JSON", "XML", "AutoMapper", "Newtonsoft Json", "T4" } }
+    };
+
+    private List<SkillCategory> BillReviewSkillCategories = new List<SkillCategory>()
+    {
+        new (){ Name = "New Framework Design:", Skills = ["Developed a scalable framework on top of existing code base, using C# and .NET, reducing state-specific code by 80%, via delegates and class extensions."]},
+        new (){ Name = "Improved Unit Testing:", Skills = ["Automated test results for JIRA reporting. Enhanced execution time by 80% faster results, utilizing asserts collection and smart test driven development."]},
+        new (){ Name = "Developer Mentorship:", Skills = ["Provided code review and mentorship to junior developers, promoting best practices and fostering understanding of the new system's architecture and benefits."]},
+        new (){ Name = "Real-time NPI Data:", Skills = ["Integrated the NPI Registry RESTful API, enabling real-time NPI data retrieval and eliminating reliance on outdated local data."]}
+    };
+
+    private List<SkillCategory> ReportModuleSkillCategories = new List<SkillCategory>()
+    {
+        new (){ Name = "Automated Reporting System:", Skills = ["Designed and developed a full-stack solution to automate company reports, enabling users to schedule subscriptions or run reports on-demand."]},
+        new (){ Name = "Comprehensive Report Management:", Skills = ["Designed a user-friendly website for managing email queues, standard reports, custom reports (including queue status), and subscription schedules."]},
+        new (){ Name = "Access Control:", Skills = ["Implemented Access Control Lists (ACLs) to ensure data integrity and restrict report access based on user roles."]}
+    };
+
+    private List<SkillCategory> PandoraSkillCategories = new List<SkillCategory>()
+    {
+        new () { Name = "Unified Application Access:", Skills = ["Developed PanDora, a centralized dashboard and widget portal, providing users with a single point of access to multiple applications, eliminating the need for separate logins and navigation."]},
+        new () { Name = "Secure Authentication:", Skills = ["Engineered a secure authentication system, including a redesigned SQL database with hashed passwords, a user-friendly login screen, password reset functionality, and seamless Single Sign-On (SSO) integration."]},
+        new () { Name = "Intuitive User Interface:", Skills = ["Created an intuitive, tile-based dashboard using Telerik web controls, simplifying application navigation and enhancing the user experience."]}
+    };
+
+    private List<SkillCategory> PbmSkillCategories = new List<SkillCategory>()
+    {
+        new (){ Name = "EDI Integration for High-Volume Data:", Skills = ["Developed robust SQL code and stored procedures to facilitate EDI integration for high-volume data synchronization (claims, rejections, transactions). This critical functionality enables daily processing of massive client data dumps (80,000+ records) and seamless data exchange with third-party systems."]},
+        new (){ Name = "Streamlined Data Management:", Skills = ["Created multiple website screens with grid and search capabilities for efficient management of documents, claims, examiner information, and organizations. Integrated modal screens for streamlined data entry and updates."]},
+        new (){ Name = "Comprehensive PBM Solution:", Skills = ["Delivered a complete PBM system for a client (PMN) specializing in ancillary and pharmacy solutions, addressing their core business needs for data processing, reporting, and integration."]}
     };
 }

@@ -13,6 +13,11 @@
 
   <ItemGroup>
     <Folder Include="Common\" />
+    <Folder Include="DTOs\Food\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Newtonsoft.Json" Version="13.0.3" />
   </ItemGroup>
 
 </Project>

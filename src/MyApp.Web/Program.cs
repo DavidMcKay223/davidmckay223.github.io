@@ -10,6 +10,8 @@ using MyApp.Web;
 using System.Net.Http.Headers;
 using Microsoft.Extensions.DependencyInjection;
 using System.Net.Http;
+using MyApp.Application.Interfaces.Food;
+using MyApp.Application.UseCases.Food;
 
 var builder = WebAssemblyHostBuilder.CreateDefault(args);
 builder.RootComponents.Add<App>("#app");
@@ -19,9 +21,10 @@ builder.Services.AddScoped(sp => new HttpClient { BaseAddress = new Uri(builder.
 
 // Services:
 builder.Services.AddScoped<IStateService, StateService>();
-
 builder.Services.AddScoped<IProviderUseCases, ProviderUseCases>();
+builder.Services.AddScoped<INutritionCalculatorService, NutritionCalculatorService>();
 
+// Needs Server Proxy: (Out of Scope)
 builder.Services.AddScoped<INpiRegistryClient, NpiRegistryService>(sp => new NpiRegistryService(new HttpClient { BaseAddress = new Uri("https://npiregistry.cms.hhs.gov/api/") }));
 
 await builder.Build().RunAsync();

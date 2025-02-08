@@ -1,0 +1,2626 @@
+[
+  {
+    "RecipeId": 1,
+    "Title": "Spaghetti Carbonara",
+    "Description": "A classic Italian pasta dish with eggs, pancetta, and cheese.",
+    "PrepTimeMinutes": 15,
+    "CookTimeMinutes": 20,
+    "Servings": 4,
+    "Steps": [
+      {
+        "StepId": 1,
+        "RecipeId": 1,
+        "StepNumber": 1,
+        "Instruction": "Cook the spaghetti according to package directions."
+      },
+      {
+        "StepId": 2,
+        "RecipeId": 1,
+        "StepNumber": 2,
+        "Instruction": "While the pasta is cooking, cook the pancetta in a skillet until crispy."
+      },
+      {
+        "StepId": 3,
+        "RecipeId": 1,
+        "StepNumber": 3,
+        "Instruction": "In a bowl, whisk together the eggs and Parmesan cheese."
+      },
+      {
+        "StepId": 4,
+        "RecipeId": 1,
+        "StepNumber": 4,
+        "Instruction": "Drain the spaghetti and add it to the skillet with the pancetta."
+      },
+      {
+        "StepId": 5,
+        "RecipeId": 1,
+        "StepNumber": 5,
+        "Instruction": "Pour the egg mixture over the pasta and toss to coat."
+      },
+      {
+        "StepId": 6,
+        "RecipeId": 1,
+        "StepNumber": 6,
+        "Instruction": "Serve immediately."
+      }
+    ],
+    "Ingredients": [
+      {
+        "IngredientId": 1,
+        "RecipeId": 1,
+        "FoodItemId": 101,
+        "Quantity": 200.00,
+        "Unit": 0,
+        "FoodItem": {
+          "FoodItemId": 101,
+          "Name": "Pasta (Wheat)",
+          "Description": "Dried pasta",
+          "FoodCategoryId": 4,
+          "CaloriesPerUnit": 131.00,
+          "ProteinPerUnit": 5.50,
+          "CarbohydratesPerUnit": 26.00,
+          "FatPerUnit": 1.00,
+          "Unit": 0,
+          "FoodCategory": {
+            "FoodCategoryId": 4,
+            "Name": "Grains & Cereals",
+            "Description": "Wheat, rice, oats, barley, and derived products"
+          }
+        }
+      },
+      {
+        "IngredientId": 2,
+        "RecipeId": 1,
+        "FoodItemId": 123,
+        "Quantity": 100.00,
+        "Unit": 0,
+        "FoodItem": {
+          "FoodItemId": 123,
+          "Name": "Pancetta",
+          "Description": "Italian cured pork belly",
+          "FoodCategoryId": 5,
+          "CaloriesPerUnit": 541.00,
+          "ProteinPerUnit": 22.00,
+          "CarbohydratesPerUnit": 1.00,
+          "FatPerUnit": 48.00,
+          "Unit": 0,
+          "FoodCategory": {
+            "FoodCategoryId": 5,
+            "Name": "Proteins",
+            "Description": "Animal and plant-based protein sources"
+          }
+        }
+      },
+      {
+        "IngredientId": 3,
+        "RecipeId": 1,
+        "FoodItemId": 117,
+        "Quantity": 4.00,
+        "Unit": 7,
+        "FoodItem": {
+          "FoodItemId": 117,
+          "Name": "Eggs",
+          "Description": "Poultry product",
+          "FoodCategoryId": 5,
+          "CaloriesPerUnit": 78.00,
+          "ProteinPerUnit": 6.00,
+          "CarbohydratesPerUnit": 1.00,
+          "FatPerUnit": 5.00,
+          "Unit": 0,
+          "FoodCategory": {
+            "FoodCategoryId": 5,
+            "Name": "Proteins",
+            "Description": "Animal and plant-based protein sources"
+          }
+        }
+      },
+      {
+        "IngredientId": 4,
+        "RecipeId": 1,
+        "FoodItemId": 78,
+        "Quantity": 50.00,
+        "Unit": 0,
+        "FoodItem": {
+          "FoodItemId": 78,
+          "Name": "Cheese (Parmesan)",
+          "Description": "Hard, granular cheese",
+          "FoodCategoryId": 3,
+          "CaloriesPerUnit": 406.00,
+          "ProteinPerUnit": 32.00,
+          "CarbohydratesPerUnit": 3.00,
+          "FatPerUnit": 26.00,
+          "Unit": 0,
+          "FoodCategory": {
+            "FoodCategoryId": 3,
+            "Name": "Dairy & Alternatives",
+            "Description": "Animal dairy products and plant-based alternatives"
+          }
+        }
+      }
+    ],
+    "MealSuggestions": [
+      {
+        "RecipeId": 1,
+        "MealSuggestionId": 1,
+        "MealSuggestion": {
+          "MealSuggestionId": 1,
+          "Name": "Quick & Easy",
+          "MealType": 0,
+          "Description": "Recipes that are fast and simple to prepare.",
+          "EffectiveDate": "2025-02-06T00:00:00",
+          "ExpirationDate": "2025-12-31T00:00:00"
+        }
+      }
+    ]
+  },
+  {
+    "RecipeId": 2,
+    "Title": "Chicken Stir-fry",
+    "Description": "A quick and easy stir-fry with chicken and vegetables.",
+    "PrepTimeMinutes": 20,
+    "CookTimeMinutes": 15,
+    "Servings": 2,
+    "Steps": [
+      {
+        "StepId": 7,
+        "RecipeId": 2,
+        "StepNumber": 1,
+        "Instruction": "Cut the chicken into bite-sized pieces."
+      },
+      {
+        "StepId": 8,
+        "RecipeId": 2,
+        "StepNumber": 2,
+        "Instruction": "In a wok or large skillet, heat oil over medium-high heat."
+      },
+      {
+        "StepId": 9,
+        "RecipeId": 2,
+        "StepNumber": 3,
+        "Instruction": "Add the chicken and stir-fry until cooked through."
+      },
+      {
+        "StepId": 10,
+        "RecipeId": 2,
+        "StepNumber": 4,
+        "Instruction": "Add the broccoli and carrots and stir-fry for 3-5 minutes, until tender-crisp."
+      },
+      {
+        "StepId": 11,
+        "RecipeId": 2,
+        "StepNumber": 5,
+        "Instruction": "Add the soy sauce and stir to combine."
+      },
+      {
+        "StepId": 12,
+        "RecipeId": 2,
+        "StepNumber": 6,
+        "Instruction": "Serve immediately over rice or noodles."
+      }
+    ],
+    "Ingredients": [
+      {
+        "IngredientId": 5,
+        "RecipeId": 2,
+        "FoodItemId": 115,
+        "Quantity": 300.00,
+        "Unit": 0,
+        "FoodItem": {
+          "FoodItemId": 115,
+          "Name": "Chicken Breast",
+          "Description": "Boneless skinless poultry",
+          "FoodCategoryId": 5,
+          "CaloriesPerUnit": 165.00,
+          "ProteinPerUnit": 31.00,
+          "CarbohydratesPerUnit": 0.00,
+          "FatPerUnit": 3.60,
+          "Unit": 0,
+          "FoodCategory": {
+            "FoodCategoryId": 5,
+            "Name": "Proteins",
+            "Description": "Animal and plant-based protein sources"
+          }
+        }
+      },
+      {
+        "IngredientId": 6,
+        "RecipeId": 2,
+        "FoodItemId": 9,
+        "Quantity": 200.00,
+        "Unit": 0,
+        "FoodItem": {
+          "FoodItemId": 9,
+          "Name": "Broccoli",
+          "Description": "Green cruciferous vegetable",
+          "FoodCategoryId": 1,
+          "CaloriesPerUnit": 34.00,
+          "ProteinPerUnit": 2.80,
+          "CarbohydratesPerUnit": 6.60,
+          "FatPerUnit": 0.40,
+          "Unit": 0,
+          "FoodCategory": {
+            "FoodCategoryId": 1,
+            "Name": "Vegetables",
+            "Description": "All forms of vegetables including leafy greens, roots, and cruciferous"
+          }
+        }
+      },
+      {
+        "IngredientId": 7,
+        "RecipeId": 2,
+        "FoodItemId": 13,
+        "Quantity": 150.00,
+        "Unit": 0,
+        "FoodItem": {
+          "FoodItemId": 13,
+          "Name": "Carrot",
+          "Description": "Orange root vegetable",
+          "FoodCategoryId": 1,
+          "CaloriesPerUnit": 41.00,
+          "ProteinPerUnit": 0.90,
+          "CarbohydratesPerUnit": 9.58,
+          "FatPerUnit": 0.24,
+          "Unit": 0,
+          "FoodCategory": {
+            "FoodCategoryId": 1,
+            "Name": "Vegetables",
+            "Description": "All forms of vegetables including leafy greens, roots, and cruciferous"
+          }
+        }
+      },
+      {
+        "IngredientId": 8,
+        "RecipeId": 2,
+        "FoodItemId": 177,
+        "Quantity": 50.00,
+        "Unit": 2,
+        "FoodItem": {
+          "FoodItemId": 177,
+          "Name": "Soy Sauce",
+          "Description": "Salty fermented sauce",
+          "FoodCategoryId": 8,
+          "CaloriesPerUnit": 53.00,
+          "ProteinPerUnit": 8.00,
+          "CarbohydratesPerUnit": 4.90,
+          "FatPerUnit": 0.00,
+          "Unit": 2,
+          "FoodCategory": {
+            "FoodCategoryId": 8,
+            "Name": "Condiments & Sauces",
+            "Description": "Spreads, dressings, and flavor enhancers"
+          }
+        }
+      }
+    ],
+    "MealSuggestions": [
+      {
+        "RecipeId": 2,
+        "MealSuggestionId": 1,
+        "MealSuggestion": {
+          "MealSuggestionId": 1,
+          "Name": "Quick & Easy",
+          "MealType": 0,
+          "Description": "Recipes that are fast and simple to prepare.",
+          "EffectiveDate": "2025-02-06T00:00:00",
+          "ExpirationDate": "2025-12-31T00:00:00"
+        }
+      }
+    ]
+  },
+  {
+    "RecipeId": 3,
+    "Title": "Chocolate Chip Cookies",
+    "Description": "Delicious homemade cookies with plenty of chocolate chips.",
+    "PrepTimeMinutes": 10,
+    "CookTimeMinutes": 12,
+    "Servings": 12,
+    "Steps": [
+      {
+        "StepId": 13,
+        "RecipeId": 3,
+        "StepNumber": 1,
+        "Instruction": "Preheat oven to 375°F (190°C)."
+      },
+      {
+        "StepId": 14,
+        "RecipeId": 3,
+        "StepNumber": 2,
+        "Instruction": "In a large bowl, cream together the butter, granulated sugar, and brown sugar until light and fluffy."
+      },
+      {
+        "StepId": 15,
+        "RecipeId": 3,
+        "StepNumber": 3,
+        "Instruction": "Beat in the eggs one at a time, then stir in the vanilla extract (if using)."
+      },
+      {
+        "StepId": 16,
+        "RecipeId": 3,
+        "StepNumber": 4,
+        "Instruction": "In a separate bowl, whisk together the flour, baking soda, and salt."
+      },
+      {
+        "StepId": 17,
+        "RecipeId": 3,
+        "StepNumber": 5,
+        "Instruction": "Gradually add the dry ingredients to the wet ingredients, mixing until just combined."
+      },
+      {
+        "StepId": 18,
+        "RecipeId": 3,
+        "StepNumber": 6,
+        "Instruction": "Stir in the chocolate chips."
+      },
+      {
+        "StepId": 19,
+        "RecipeId": 3,
+        "StepNumber": 7,
+        "Instruction": "Drop by rounded tablespoons onto ungreased baking sheets."
+      },
+      {
+        "StepId": 20,
+        "RecipeId": 3,
+        "StepNumber": 8,
+        "Instruction": "Bake for 9-11 minutes, or until golden brown. Let cool on baking sheets for a few minutes before transferring to a wire rack to cool completely."
+      }
+    ],
+    "Ingredients": [
+      {
+        "IngredientId": 9,
+        "RecipeId": 3,
+        "FoodItemId": 98,
+        "Quantity": 200.00,
+        "Unit": 0,
+        "FoodItem": {
+          "FoodItemId": 98,
+          "Name": "Flour (All-Purpose)",
+          "Description": "Finely ground wheat flour",
+          "FoodCategoryId": 4,
+          "CaloriesPerUnit": 100.00,
+          "ProteinPerUnit": 3.00,
+          "CarbohydratesPerUnit": 20.00,
+          "FatPerUnit": 0.50,
+          "Unit": 0,
+          "FoodCategory": {
+            "FoodCategoryId": 4,
+            "Name": "Grains & Cereals",
+            "Description": "Wheat, rice, oats, barley, and derived products"
+          }
+        }
+      },
+      {
+        "IngredientId": 10,
+        "RecipeId": 3,
+        "FoodItemId": 198,
+        "Quantity": 100.00,
+        "Unit": 0,
+        "FoodItem": {
+          "FoodItemId": 198,
+          "Name": "Sugar (Granulated)",
+          "Description": "Sweet crystalline sucrose",
+          "FoodCategoryId": 9,
+          "CaloriesPerUnit": 400.00,
+          "ProteinPerUnit": 0.00,
+          "CarbohydratesPerUnit": 100.00,
+          "FatPerUnit": 0.00,
+          "Unit": 0,
+          "FoodCategory": {
+            "FoodCategoryId": 9,
+            "Name": "Snacks & Sweets",
+            "Description": "Processed snacks, candies, and desserts"
+          }
+        }
+      },
+      {
+        "IngredientId": 11,
+        "RecipeId": 3,
+        "FoodItemId": 181,
+        "Quantity": 100.00,
+        "Unit": 0,
+        "FoodItem": {
+          "FoodItemId": 181,
+          "Name": "Brown Sugar",
+          "Description": "Sucrose with molasses",
+          "FoodCategoryId": 9,
+          "CaloriesPerUnit": 375.00,
+          "ProteinPerUnit": 0.00,
+          "CarbohydratesPerUnit": 95.00,
+          "FatPerUnit": 0.00,
+          "Unit": 0,
+          "FoodCategory": {
+            "FoodCategoryId": 9,
+            "Name": "Snacks & Sweets",
+            "Description": "Processed snacks, candies, and desserts"
+          }
+        }
+      },
+      {
+        "IngredientId": 12,
+        "RecipeId": 3,
+        "FoodItemId": 187,
+        "Quantity": 200.00,
+        "Unit": 0,
+        "FoodItem": {
+          "FoodItemId": 187,
+          "Name": "Dark Chocolate",
+          "Description": "High-cocoa content chocolate",
+          "FoodCategoryId": 9,
+          "CaloriesPerUnit": 546.00,
+          "ProteinPerUnit": 7.00,
+          "CarbohydratesPerUnit": 59.00,
+          "FatPerUnit": 31.00,
+          "Unit": 0,
+          "FoodCategory": {
+            "FoodCategoryId": 9,
+            "Name": "Snacks & Sweets",
+            "Description": "Processed snacks, candies, and desserts"
+          }
+        }
+      }
+    ],
+    "MealSuggestions": [
+      {
+        "RecipeId": 3,
+        "MealSuggestionId": 3,
+        "MealSuggestion": {
+          "MealSuggestionId": 3,
+          "Name": "Comfort Food",
+          "MealType": 0,
+          "Description": "Classic and satisfying dishes.",
+          "EffectiveDate": "2025-02-06T00:00:00",
+          "ExpirationDate": "2025-12-31T00:00:00"
+        }
+      }
+    ]
+  },
+  {
+    "RecipeId": 4,
+    "Title": "Guacamole",
+    "Description": "A creamy avocado dip perfect for parties or snacks.",
+    "PrepTimeMinutes": 5,
+    "CookTimeMinutes": 5,
+    "Servings": 6,
+    "Steps": [
+      {
+        "StepId": 21,
+        "RecipeId": 4,
+        "StepNumber": 1,
+        "Instruction": "Cut the avocados in half, remove the pits, and scoop the flesh into a medium bowl."
+      },
+      {
+        "StepId": 22,
+        "RecipeId": 4,
+        "StepNumber": 2,
+        "Instruction": "Mash the avocados with a fork or potato masher until smooth or slightly chunky, depending on your preference."
+      },
+      {
+        "StepId": 23,
+        "RecipeId": 4,
+        "StepNumber": 3,
+        "Instruction": "Add the lime juice and finely chopped onion."
+      },
+      {
+        "StepId": 24,
+        "RecipeId": 4,
+        "StepNumber": 4,
+        "Instruction": "Stir to combine. Season with salt to taste."
+      },
+      {
+        "StepId": 25,
+        "RecipeId": 4,
+        "StepNumber": 5,
+        "Instruction": "Serve immediately with tortilla chips, vegetables, or as a topping for tacos or other dishes."
+      }
+    ],
+    "Ingredients": [
+      {
+        "IngredientId": 13,
+        "RecipeId": 4,
+        "FoodItemId": 54,
+        "Quantity": 3.00,
+        "Unit": 7,
+        "FoodItem": {
+          "FoodItemId": 54,
+          "Name": "Avocados",
+          "Description": "Green fruit with a large pit",
+          "FoodCategoryId": 2,
+          "CaloriesPerUnit": 160.00,
+          "ProteinPerUnit": 2.00,
+          "CarbohydratesPerUnit": 9.00,
+          "FatPerUnit": 15.00,
+          "Unit": 0,
+          "FoodCategory": {
+            "FoodCategoryId": 2,
+            "Name": "Fruits",
+            "Description": "Fresh, dried, and preserved fruits"
+          }
+        }
+      },
+      {
+        "IngredientId": 14,
+        "RecipeId": 4,
+        "FoodItemId": 63,
+        "Quantity": 1.00,
+        "Unit": 7,
+        "FoodItem": {
+          "FoodItemId": 63,
+          "Name": "Limes",
+          "Description": "Green citrus fruit with a sour taste",
+          "FoodCategoryId": 2,
+          "CaloriesPerUnit": 30.00,
+          "ProteinPerUnit": 0.70,
+          "CarbohydratesPerUnit": 10.54,
+          "FatPerUnit": 0.10,
+          "Unit": 0,
+          "FoodCategory": {
+            "FoodCategoryId": 2,
+            "Name": "Fruits",
+            "Description": "Fresh, dried, and preserved fruits"
+          }
+        }
+      },
+      {
+        "IngredientId": 15,
+        "RecipeId": 4,
+        "FoodItemId": 34,
+        "Quantity": 50.00,
+        "Unit": 0,
+        "FoodItem": {
+          "FoodItemId": 34,
+          "Name": "Onion",
+          "Description": "Yellow cooking onion",
+          "FoodCategoryId": 1,
+          "CaloriesPerUnit": 40.00,
+          "ProteinPerUnit": 1.10,
+          "CarbohydratesPerUnit": 9.34,
+          "FatPerUnit": 0.10,
+          "Unit": 0,
+          "FoodCategory": {
+            "FoodCategoryId": 1,
+            "Name": "Vegetables",
+            "Description": "All forms of vegetables including leafy greens, roots, and cruciferous"
+          }
+        }
+      }
+    ],
+    "MealSuggestions": [
+      {
+        "RecipeId": 4,
+        "MealSuggestionId": 2,
+        "MealSuggestion": {
+          "MealSuggestionId": 2,
+          "Name": "Healthy & Nutritious",
+          "MealType": 0,
+          "Description": "Recipes focused on nutrition and well-being.",
+          "EffectiveDate": "2025-02-06T00:00:00",
+          "ExpirationDate": "2025-12-31T00:00:00"
+        }
+      }
+    ]
+  },
+  {
+    "RecipeId": 5,
+    "Title": "Tomato Soup",
+    "Description": "A comforting and flavorful soup made with fresh tomatoes.",
+    "PrepTimeMinutes": 10,
+    "CookTimeMinutes": 25,
+    "Servings": 4,
+    "Steps": [
+      {
+        "StepId": 26,
+        "RecipeId": 5,
+        "StepNumber": 1,
+        "Instruction": "Chop the tomatoes into chunks."
+      },
+      {
+        "StepId": 27,
+        "RecipeId": 5,
+        "StepNumber": 2,
+        "Instruction": "In a large pot or Dutch oven, heat olive oil over medium heat."
+      },
+      {
+        "StepId": 28,
+        "RecipeId": 5,
+        "StepNumber": 3,
+        "Instruction": "Add the chopped onion and cook until softened, about 5 minutes."
+      },
+      {
+        "StepId": 29,
+        "RecipeId": 5,
+        "StepNumber": 4,
+        "Instruction": "Add the chopped tomatoes and chicken broth."
+      },
+      {
+        "StepId": 30,
+        "RecipeId": 5,
+        "StepNumber": 5,
+        "Instruction": "Bring to a boil, then reduce heat and simmer for 20-25 minutes, or until the tomatoes are very soft."
+      },
+      {
+        "StepId": 31,
+        "RecipeId": 5,
+        "StepNumber": 6,
+        "Instruction": "Carefully transfer the soup to a blender (or use an immersion blender) and blend until smooth."
+      },
+      {
+        "StepId": 32,
+        "RecipeId": 5,
+        "StepNumber": 7,
+        "Instruction": "Return the soup to the pot. Stir in the cream (if using) and season with salt and pepper to taste."
+      },
+      {
+        "StepId": 33,
+        "RecipeId": 5,
+        "StepNumber": 8,
+        "Instruction": "Heat through gently. Serve hot, garnished with fresh basil or croutons, if desired."
+      }
+    ],
+    "Ingredients": [
+      {
+        "IngredientId": 16,
+        "RecipeId": 5,
+        "FoodItemId": 333,
+        "Quantity": 500.00,
+        "Unit": 0,
+        "FoodItem": {
+          "FoodItemId": 333,
+          "Name": "Canned Tomatoes",
+          "Description": "Canned diced or whole tomatoes",
+          "FoodCategoryId": 18,
+          "CaloriesPerUnit": 20.00,
+          "ProteinPerUnit": 1.00,
+          "CarbohydratesPerUnit": 4.00,
+          "FatPerUnit": 0.20,
+          "Unit": 0,
+          "FoodCategory": {
+            "FoodCategoryId": 18,
+            "Name": "Canned/Preserved",
+            "Description": "Long-shelf-life packaged foods"
+          }
+        }
+      },
+      {
+        "IngredientId": 17,
+        "RecipeId": 5,
+        "FoodItemId": 234,
+        "Quantity": 200.00,
+        "Unit": 2,
+        "FoodItem": {
+          "FoodItemId": 234,
+          "Name": "Chicken Broth",
+          "Description": "Savory liquid made by simmering chicken",
+          "FoodCategoryId": 12,
+          "CaloriesPerUnit": 20.00,
+          "ProteinPerUnit": 2.00,
+          "CarbohydratesPerUnit": 1.00,
+          "FatPerUnit": 0.00,
+          "Unit": 2,
+          "FoodCategory": {
+            "FoodCategoryId": 12,
+            "Name": "Prepared Foods",
+            "Description": "Ready-to-eat meals and processed food items"
+          }
+        }
+      },
+      {
+        "IngredientId": 18,
+        "RecipeId": 5,
+        "FoodItemId": 79,
+        "Quantity": 50.00,
+        "Unit": 2,
+        "FoodItem": {
+          "FoodItemId": 79,
+          "Name": "Cream",
+          "Description": "Dairy product",
+          "FoodCategoryId": 3,
+          "CaloriesPerUnit": 204.00,
+          "ProteinPerUnit": 3.00,
+          "CarbohydratesPerUnit": 3.00,
+          "FatPerUnit": 21.00,
+          "Unit": 0,
+          "FoodCategory": {
+            "FoodCategoryId": 3,
+            "Name": "Dairy & Alternatives",
+            "Description": "Animal dairy products and plant-based alternatives"
+          }
+        }
+      }
+    ],
+    "MealSuggestions": [
+      {
+        "RecipeId": 5,
+        "MealSuggestionId": 4,
+        "MealSuggestion": {
+          "MealSuggestionId": 4,
+          "Name": "International Cuisine",
+          "MealType": 0,
+          "Description": "Recipes inspired by different cultures.",
+          "EffectiveDate": "2025-02-06T00:00:00",
+          "ExpirationDate": "2025-12-31T00:00:00"
+        }
+      }
+    ]
+  },
+  {
+    "RecipeId": 6,
+    "Title": "Cheesy Chicken Quesadillas",
+    "Description": "Easy and cheesy quesadillas that kids love!",
+    "PrepTimeMinutes": 15,
+    "CookTimeMinutes": 20,
+    "Servings": 4,
+    "Steps": [
+      {
+        "StepId": 34,
+        "RecipeId": 6,
+        "StepNumber": 1,
+        "Instruction": "Cook the chicken and shred it."
+      },
+      {
+        "StepId": 35,
+        "RecipeId": 6,
+        "StepNumber": 2,
+        "Instruction": "Sprinkle cheese on one half of a tortilla."
+      },
+      {
+        "StepId": 36,
+        "RecipeId": 6,
+        "StepNumber": 3,
+        "Instruction": "Add the shredded chicken."
+      },
+      {
+        "StepId": 37,
+        "RecipeId": 6,
+        "StepNumber": 4,
+        "Instruction": "Fold the tortilla in half and cook in a skillet until golden brown and the cheese is melted."
+      },
+      {
+        "StepId": 38,
+        "RecipeId": 6,
+        "StepNumber": 5,
+        "Instruction": "Cut into wedges and serve."
+      }
+    ],
+    "Ingredients": [
+      {
+        "IngredientId": 19,
+        "RecipeId": 6,
+        "FoodItemId": 115,
+        "Quantity": 200.00,
+        "Unit": 0,
+        "FoodItem": {
+          "FoodItemId": 115,
+          "Name": "Chicken Breast",
+          "Description": "Boneless skinless poultry",
+          "FoodCategoryId": 5,
+          "CaloriesPerUnit": 165.00,
+          "ProteinPerUnit": 31.00,
+          "CarbohydratesPerUnit": 0.00,
+          "FatPerUnit": 3.60,
+          "Unit": 0,
+          "FoodCategory": {
+            "FoodCategoryId": 5,
+            "Name": "Proteins",
+            "Description": "Animal and plant-based protein sources"
+          }
+        }
+      },
+      {
+        "IngredientId": 20,
+        "RecipeId": 6,
+        "FoodItemId": 76,
+        "Quantity": 100.00,
+        "Unit": 0,
+        "FoodItem": {
+          "FoodItemId": 76,
+          "Name": "Cheese (Cheddar)",
+          "Description": "Hard cheese",
+          "FoodCategoryId": 3,
+          "CaloriesPerUnit": 403.00,
+          "ProteinPerUnit": 25.00,
+          "CarbohydratesPerUnit": 2.00,
+          "FatPerUnit": 33.00,
+          "Unit": 0,
+          "FoodCategory": {
+            "FoodCategoryId": 3,
+            "Name": "Dairy & Alternatives",
+            "Description": "Animal dairy products and plant-based alternatives"
+          }
+        }
+      },
+      {
+        "IngredientId": 21,
+        "RecipeId": 6,
+        "FoodItemId": 112,
+        "Quantity": 4.00,
+        "Unit": 7,
+        "FoodItem": {
+          "FoodItemId": 112,
+          "Name": "Whole Wheat Tortillas",
+          "Description": "Soft taco shells",
+          "FoodCategoryId": 4,
+          "CaloriesPerUnit": 138.00,
+          "ProteinPerUnit": 4.00,
+          "CarbohydratesPerUnit": 28.00,
+          "FatPerUnit": 2.00,
+          "Unit": 7,
+          "FoodCategory": {
+            "FoodCategoryId": 4,
+            "Name": "Grains & Cereals",
+            "Description": "Wheat, rice, oats, barley, and derived products"
+          }
+        }
+      }
+    ],
+    "MealSuggestions": [
+      {
+        "RecipeId": 6,
+        "MealSuggestionId": 12,
+        "MealSuggestion": {
+          "MealSuggestionId": 12,
+          "Name": "Lunch",
+          "MealType": 2,
+          "Description": "Recipes suitable for lunch.",
+          "EffectiveDate": "2025-02-06T00:00:00",
+          "ExpirationDate": "2025-12-31T00:00:00"
+        }
+      },
+      {
+        "RecipeId": 6,
+        "MealSuggestionId": 13,
+        "MealSuggestion": {
+          "MealSuggestionId": 13,
+          "Name": "Dinner",
+          "MealType": 3,
+          "Description": "Recipes suitable for dinner.",
+          "EffectiveDate": "2025-02-06T00:00:00",
+          "ExpirationDate": "2025-12-31T00:00:00"
+        }
+      }
+    ]
+  },
+  {
+    "RecipeId": 7,
+    "Title": "Peanut Butter and Banana \"Sushi\"",
+    "Description": "Fun and healthy snack for kids!",
+    "PrepTimeMinutes": 10,
+    "CookTimeMinutes": 0,
+    "Servings": 2,
+    "Steps": [
+      {
+        "StepId": 39,
+        "RecipeId": 7,
+        "StepNumber": 1,
+        "Instruction": "Spread peanut butter on the bread."
+      },
+      {
+        "StepId": 40,
+        "RecipeId": 7,
+        "StepNumber": 2,
+        "Instruction": "Place a banana on the bread."
+      },
+      {
+        "StepId": 41,
+        "RecipeId": 7,
+        "StepNumber": 3,
+        "Instruction": "Roll up the bread."
+      },
+      {
+        "StepId": 42,
+        "RecipeId": 7,
+        "StepNumber": 4,
+        "Instruction": "Cut into slices like sushi."
+      }
+    ],
+    "Ingredients": [
+      {
+        "IngredientId": 22,
+        "RecipeId": 7,
+        "FoodItemId": 55,
+        "Quantity": 2.00,
+        "Unit": 7,
+        "FoodItem": {
+          "FoodItemId": 55,
+          "Name": "Banana",
+          "Description": "Tropical curved fruit",
+          "FoodCategoryId": 2,
+          "CaloriesPerUnit": 89.00,
+          "ProteinPerUnit": 1.10,
+          "CarbohydratesPerUnit": 22.84,
+          "FatPerUnit": 0.33,
+          "Unit": 7,
+          "FoodCategory": {
+            "FoodCategoryId": 2,
+            "Name": "Fruits",
+            "Description": "Fresh, dried, and preserved fruits"
+          }
+        }
+      },
+      {
+        "IngredientId": 23,
+        "RecipeId": 7,
+        "FoodItemId": 124,
+        "Quantity": 50.00,
+        "Unit": 0,
+        "FoodItem": {
+          "FoodItemId": 124,
+          "Name": "Peanut Butter",
+          "Description": "Nut butter",
+          "FoodCategoryId": 5,
+          "CaloriesPerUnit": 188.00,
+          "ProteinPerUnit": 7.00,
+          "CarbohydratesPerUnit": 7.00,
+          "FatPerUnit": 16.00,
+          "Unit": 0,
+          "FoodCategory": {
+            "FoodCategoryId": 5,
+            "Name": "Proteins",
+            "Description": "Animal and plant-based protein sources"
+          }
+        }
+      },
+      {
+        "IngredientId": 24,
+        "RecipeId": 7,
+        "FoodItemId": 111,
+        "Quantity": 2.00,
+        "Unit": 7,
+        "FoodItem": {
+          "FoodItemId": 111,
+          "Name": "Whole Wheat Bread",
+          "Description": "High fiber bread",
+          "FoodCategoryId": 4,
+          "CaloriesPerUnit": 247.00,
+          "ProteinPerUnit": 13.00,
+          "CarbohydratesPerUnit": 41.00,
+          "FatPerUnit": 3.40,
+          "Unit": 8,
+          "FoodCategory": {
+            "FoodCategoryId": 4,
+            "Name": "Grains & Cereals",
+            "Description": "Wheat, rice, oats, barley, and derived products"
+          }
+        }
+      }
+    ],
+    "MealSuggestions": [
+      {
+        "RecipeId": 7,
+        "MealSuggestionId": 14,
+        "MealSuggestion": {
+          "MealSuggestionId": 14,
+          "Name": "Snack",
+          "MealType": 4,
+          "Description": "Recipes suitable for snacks.",
+          "EffectiveDate": "2025-02-06T00:00:00",
+          "ExpirationDate": "2025-12-31T00:00:00"
+        }
+      }
+    ]
+  },
+  {
+    "RecipeId": 8,
+    "Title": "Mini Fruit Pizzas",
+    "Description": "Colorful and delicious dessert pizzas!",
+    "PrepTimeMinutes": 20,
+    "CookTimeMinutes": 15,
+    "Servings": 6,
+    "Steps": [
+      {
+        "StepId": 43,
+        "RecipeId": 8,
+        "StepNumber": 1,
+        "Instruction": "Make the cookie dough and bake mini cookies."
+      },
+      {
+        "StepId": 44,
+        "RecipeId": 8,
+        "StepNumber": 2,
+        "Instruction": "Mix cream cheese with a little sugar for frosting."
+      },
+      {
+        "StepId": 45,
+        "RecipeId": 8,
+        "StepNumber": 3,
+        "Instruction": "Spread the frosting on the cookies."
+      },
+      {
+        "StepId": 46,
+        "RecipeId": 8,
+        "StepNumber": 4,
+        "Instruction": "Arrange the fruit on top."
+      }
+    ],
+    "Ingredients": [
+      {
+        "IngredientId": 25,
+        "RecipeId": 8,
+        "FoodItemId": 98,
+        "Quantity": 150.00,
+        "Unit": 0,
+        "FoodItem": {
+          "FoodItemId": 98,
+          "Name": "Flour (All-Purpose)",
+          "Description": "Finely ground wheat flour",
+          "FoodCategoryId": 4,
+          "CaloriesPerUnit": 100.00,
+          "ProteinPerUnit": 3.00,
+          "CarbohydratesPerUnit": 20.00,
+          "FatPerUnit": 0.50,
+          "Unit": 0,
+          "FoodCategory": {
+            "FoodCategoryId": 4,
+            "Name": "Grains & Cereals",
+            "Description": "Wheat, rice, oats, barley, and derived products"
+          }
+        }
+      },
+      {
+        "IngredientId": 26,
+        "RecipeId": 8,
+        "FoodItemId": 198,
+        "Quantity": 50.00,
+        "Unit": 0,
+        "FoodItem": {
+          "FoodItemId": 198,
+          "Name": "Sugar (Granulated)",
+          "Description": "Sweet crystalline sucrose",
+          "FoodCategoryId": 9,
+          "CaloriesPerUnit": 400.00,
+          "ProteinPerUnit": 0.00,
+          "CarbohydratesPerUnit": 100.00,
+          "FatPerUnit": 0.00,
+          "Unit": 0,
+          "FoodCategory": {
+            "FoodCategoryId": 9,
+            "Name": "Snacks & Sweets",
+            "Description": "Processed snacks, candies, and desserts"
+          }
+        }
+      },
+      {
+        "IngredientId": 29,
+        "RecipeId": 8,
+        "FoodItemId": 73,
+        "Quantity": 100.00,
+        "Unit": 0,
+        "FoodItem": {
+          "FoodItemId": 73,
+          "Name": "Strawberries",
+          "Description": "Red berry with seeds on the outside",
+          "FoodCategoryId": 2,
+          "CaloriesPerUnit": 32.00,
+          "ProteinPerUnit": 0.70,
+          "CarbohydratesPerUnit": 7.68,
+          "FatPerUnit": 0.30,
+          "Unit": 0,
+          "FoodCategory": {
+            "FoodCategoryId": 2,
+            "Name": "Fruits",
+            "Description": "Fresh, dried, and preserved fruits"
+          }
+        }
+      },
+      {
+        "IngredientId": 30,
+        "RecipeId": 8,
+        "FoodItemId": 57,
+        "Quantity": 100.00,
+        "Unit": 0,
+        "FoodItem": {
+          "FoodItemId": 57,
+          "Name": "Blueberries",
+          "Description": "Small blue-purple berries",
+          "FoodCategoryId": 2,
+          "CaloriesPerUnit": 57.00,
+          "ProteinPerUnit": 0.70,
+          "CarbohydratesPerUnit": 14.40,
+          "FatPerUnit": 0.30,
+          "Unit": 0,
+          "FoodCategory": {
+            "FoodCategoryId": 2,
+            "Name": "Fruits",
+            "Description": "Fresh, dried, and preserved fruits"
+          }
+        }
+      },
+      {
+        "IngredientId": 31,
+        "RecipeId": 8,
+        "FoodItemId": 61,
+        "Quantity": 100.00,
+        "Unit": 0,
+        "FoodItem": {
+          "FoodItemId": 61,
+          "Name": "Kiwis",
+          "Description": "Small fuzzy fruit with green flesh",
+          "FoodCategoryId": 2,
+          "CaloriesPerUnit": 61.00,
+          "ProteinPerUnit": 1.10,
+          "CarbohydratesPerUnit": 14.66,
+          "FatPerUnit": 0.40,
+          "Unit": 0,
+          "FoodCategory": {
+            "FoodCategoryId": 2,
+            "Name": "Fruits",
+            "Description": "Fresh, dried, and preserved fruits"
+          }
+        }
+      }
+    ],
+    "MealSuggestions": [
+      {
+        "RecipeId": 8,
+        "MealSuggestionId": 14,
+        "MealSuggestion": {
+          "MealSuggestionId": 14,
+          "Name": "Snack",
+          "MealType": 4,
+          "Description": "Recipes suitable for snacks.",
+          "EffectiveDate": "2025-02-06T00:00:00",
+          "ExpirationDate": "2025-12-31T00:00:00"
+        }
+      },
+      {
+        "RecipeId": 8,
+        "MealSuggestionId": 15,
+        "MealSuggestion": {
+          "MealSuggestionId": 15,
+          "Name": "Dessert",
+          "MealType": 5,
+          "Description": "Recipes suitable for dessert.",
+          "EffectiveDate": "2025-02-06T00:00:00",
+          "ExpirationDate": "2025-12-31T00:00:00"
+        }
+      }
+    ]
+  },
+  {
+    "RecipeId": 19,
+    "Title": "Popcorn",
+    "Description": "A classic movie snack.",
+    "PrepTimeMinutes": 5,
+    "CookTimeMinutes": 5,
+    "Servings": 4,
+    "Steps": [
+      {
+        "StepId": 57,
+        "RecipeId": 19,
+        "StepNumber": 1,
+        "Instruction": "Add oil and popcorn kernels to a pot."
+      }
+    ],
+    "Ingredients": [
+      {
+        "IngredientId": 42,
+        "RecipeId": 19,
+        "FoodItemId": 103,
+        "Quantity": 50.00,
+        "Unit": 0,
+        "FoodItem": {
+          "FoodItemId": 103,
+          "Name": "Popcorn Kernels",
+          "Description": "Unpopped kernels of corn.",
+          "FoodCategoryId": 4,
+          "CaloriesPerUnit": 375.00,
+          "ProteinPerUnit": 13.00,
+          "CarbohydratesPerUnit": 78.00,
+          "FatPerUnit": 5.00,
+          "Unit": 0,
+          "FoodCategory": {
+            "FoodCategoryId": 4,
+            "Name": "Grains & Cereals",
+            "Description": "Wheat, rice, oats, barley, and derived products"
+          }
+        }
+      }
+    ],
+    "MealSuggestions": [
+      {
+        "RecipeId": 19,
+        "MealSuggestionId": 14,
+        "MealSuggestion": {
+          "MealSuggestionId": 14,
+          "Name": "Snack",
+          "MealType": 4,
+          "Description": "Recipes suitable for snacks.",
+          "EffectiveDate": "2025-02-06T00:00:00",
+          "ExpirationDate": "2025-12-31T00:00:00"
+        }
+      }
+    ]
+  },
+  {
+    "RecipeId": 20,
+    "Title": "Cheese and Crackers",
+    "Description": "Simple and satisfying snack.",
+    "PrepTimeMinutes": 5,
+    "CookTimeMinutes": 0,
+    "Servings": 2,
+    "Steps": [
+      {
+        "StepId": 58,
+        "RecipeId": 20,
+        "StepNumber": 1,
+        "Instruction": "Slice or cube the cheese."
+      }
+    ],
+    "Ingredients": [
+      {
+        "IngredientId": 43,
+        "RecipeId": 20,
+        "FoodItemId": 76,
+        "Quantity": 50.00,
+        "Unit": 0,
+        "FoodItem": {
+          "FoodItemId": 76,
+          "Name": "Cheese (Cheddar)",
+          "Description": "Hard cheese",
+          "FoodCategoryId": 3,
+          "CaloriesPerUnit": 403.00,
+          "ProteinPerUnit": 25.00,
+          "CarbohydratesPerUnit": 2.00,
+          "FatPerUnit": 33.00,
+          "Unit": 0,
+          "FoodCategory": {
+            "FoodCategoryId": 3,
+            "Name": "Dairy & Alternatives",
+            "Description": "Animal dairy products and plant-based alternatives"
+          }
+        }
+      }
+    ],
+    "MealSuggestions": [
+      {
+        "RecipeId": 20,
+        "MealSuggestionId": 14,
+        "MealSuggestion": {
+          "MealSuggestionId": 14,
+          "Name": "Snack",
+          "MealType": 4,
+          "Description": "Recipes suitable for snacks.",
+          "EffectiveDate": "2025-02-06T00:00:00",
+          "ExpirationDate": "2025-12-31T00:00:00"
+        }
+      }
+    ]
+  },
+  {
+    "RecipeId": 21,
+    "Title": "Hard-boiled Eggs",
+    "Description": "A protein-packed snack.",
+    "PrepTimeMinutes": 5,
+    "CookTimeMinutes": 15,
+    "Servings": 2,
+    "Steps": [
+      {
+        "StepId": 59,
+        "RecipeId": 21,
+        "StepNumber": 1,
+        "Instruction": "Place eggs in a pot and cover with cold water."
+      }
+    ],
+    "Ingredients": [
+      {
+        "IngredientId": 44,
+        "RecipeId": 21,
+        "FoodItemId": 117,
+        "Quantity": 2.00,
+        "Unit": 7,
+        "FoodItem": {
+          "FoodItemId": 117,
+          "Name": "Eggs",
+          "Description": "Poultry product",
+          "FoodCategoryId": 5,
+          "CaloriesPerUnit": 78.00,
+          "ProteinPerUnit": 6.00,
+          "CarbohydratesPerUnit": 1.00,
+          "FatPerUnit": 5.00,
+          "Unit": 0,
+          "FoodCategory": {
+            "FoodCategoryId": 5,
+            "Name": "Proteins",
+            "Description": "Animal and plant-based protein sources"
+          }
+        }
+      }
+    ],
+    "MealSuggestions": [
+      {
+        "RecipeId": 21,
+        "MealSuggestionId": 14,
+        "MealSuggestion": {
+          "MealSuggestionId": 14,
+          "Name": "Snack",
+          "MealType": 4,
+          "Description": "Recipes suitable for snacks.",
+          "EffectiveDate": "2025-02-06T00:00:00",
+          "ExpirationDate": "2025-12-31T00:00:00"
+        }
+      }
+    ]
+  },
+  {
+    "RecipeId": 22,
+    "Title": "Vegetarian Pasta Primavera",
+    "Description": "A colorful pasta dish with fresh vegetables.",
+    "PrepTimeMinutes": 20,
+    "CookTimeMinutes": 25,
+    "Servings": 4,
+    "Steps": [
+      {
+        "StepId": 60,
+        "RecipeId": 22,
+        "StepNumber": 1,
+        "Instruction": "Cook pasta according to package instructions. Drain and set aside."
+      },
+      {
+        "StepId": 61,
+        "RecipeId": 22,
+        "StepNumber": 2,
+        "Instruction": "Slice zucchini, bell pepper, and carrots into thin strips."
+      },
+      {
+        "StepId": 62,
+        "RecipeId": 22,
+        "StepNumber": 3,
+        "Instruction": "Heat olive oil in a pan. Add minced garlic and sauté until fragrant."
+      },
+      {
+        "StepId": 63,
+        "RecipeId": 22,
+        "StepNumber": 4,
+        "Instruction": "Add vegetables and sauté until tender."
+      },
+      {
+        "StepId": 64,
+        "RecipeId": 22,
+        "StepNumber": 5,
+        "Instruction": "Toss cooked pasta with vegetables. Top with grated Parmesan."
+      }
+    ],
+    "Ingredients": [
+      {
+        "IngredientId": 45,
+        "RecipeId": 22,
+        "FoodItemId": 101,
+        "Quantity": 300.00,
+        "Unit": 0,
+        "FoodItem": {
+          "FoodItemId": 101,
+          "Name": "Pasta (Wheat)",
+          "Description": "Dried pasta",
+          "FoodCategoryId": 4,
+          "CaloriesPerUnit": 131.00,
+          "ProteinPerUnit": 5.50,
+          "CarbohydratesPerUnit": 26.00,
+          "FatPerUnit": 1.00,
+          "Unit": 0,
+          "FoodCategory": {
+            "FoodCategoryId": 4,
+            "Name": "Grains & Cereals",
+            "Description": "Wheat, rice, oats, barley, and derived products"
+          }
+        }
+      },
+      {
+        "IngredientId": 46,
+        "RecipeId": 22,
+        "FoodItemId": 51,
+        "Quantity": 2.00,
+        "Unit": 7,
+        "FoodItem": {
+          "FoodItemId": 51,
+          "Name": "Zucchini",
+          "Description": "Green summer squash",
+          "FoodCategoryId": 1,
+          "CaloriesPerUnit": 17.00,
+          "ProteinPerUnit": 1.20,
+          "CarbohydratesPerUnit": 3.10,
+          "FatPerUnit": 0.30,
+          "Unit": 0,
+          "FoodCategory": {
+            "FoodCategoryId": 1,
+            "Name": "Vegetables",
+            "Description": "All forms of vegetables including leafy greens, roots, and cruciferous"
+          }
+        }
+      },
+      {
+        "IngredientId": 47,
+        "RecipeId": 22,
+        "FoodItemId": 6,
+        "Quantity": 1.00,
+        "Unit": 7,
+        "FoodItem": {
+          "FoodItemId": 6,
+          "Name": "Bell Pepper",
+          "Description": "Colorful capsicum",
+          "FoodCategoryId": 1,
+          "CaloriesPerUnit": 31.00,
+          "ProteinPerUnit": 1.00,
+          "CarbohydratesPerUnit": 6.03,
+          "FatPerUnit": 0.30,
+          "Unit": 0,
+          "FoodCategory": {
+            "FoodCategoryId": 1,
+            "Name": "Vegetables",
+            "Description": "All forms of vegetables including leafy greens, roots, and cruciferous"
+          }
+        }
+      },
+      {
+        "IngredientId": 48,
+        "RecipeId": 22,
+        "FoodItemId": 13,
+        "Quantity": 100.00,
+        "Unit": 0,
+        "FoodItem": {
+          "FoodItemId": 13,
+          "Name": "Carrot",
+          "Description": "Orange root vegetable",
+          "FoodCategoryId": 1,
+          "CaloriesPerUnit": 41.00,
+          "ProteinPerUnit": 0.90,
+          "CarbohydratesPerUnit": 9.58,
+          "FatPerUnit": 0.24,
+          "Unit": 0,
+          "FoodCategory": {
+            "FoodCategoryId": 1,
+            "Name": "Vegetables",
+            "Description": "All forms of vegetables including leafy greens, roots, and cruciferous"
+          }
+        }
+      },
+      {
+        "IngredientId": 49,
+        "RecipeId": 22,
+        "FoodItemId": 225,
+        "Quantity": 30.00,
+        "Unit": 5,
+        "FoodItem": {
+          "FoodItemId": 225,
+          "Name": "Olive Oil",
+          "Description": "Mediterranean cooking oil",
+          "FoodCategoryId": 11,
+          "CaloriesPerUnit": 884.00,
+          "ProteinPerUnit": 0.00,
+          "CarbohydratesPerUnit": 0.00,
+          "FatPerUnit": 100.00,
+          "Unit": 5,
+          "FoodCategory": {
+            "FoodCategoryId": 11,
+            "Name": "Fats & Oils",
+            "Description": "Cooking oils, butter, and lipid-based products"
+          }
+        }
+      },
+      {
+        "IngredientId": 50,
+        "RecipeId": 22,
+        "FoodItemId": 254,
+        "Quantity": 3.00,
+        "Unit": 9,
+        "FoodItem": {
+          "FoodItemId": 254,
+          "Name": "Garlic",
+          "Description": "Fresh garlic cloves",
+          "FoodCategoryId": 13,
+          "CaloriesPerUnit": 149.00,
+          "ProteinPerUnit": 6.40,
+          "CarbohydratesPerUnit": 33.00,
+          "FatPerUnit": 0.50,
+          "Unit": 9,
+          "FoodCategory": {
+            "FoodCategoryId": 13,
+            "Name": "Herbs & Spices",
+            "Description": "Culinary flavorings and seasoning agents"
+          }
+        }
+      },
+      {
+        "IngredientId": 51,
+        "RecipeId": 22,
+        "FoodItemId": 78,
+        "Quantity": 50.00,
+        "Unit": 0,
+        "FoodItem": {
+          "FoodItemId": 78,
+          "Name": "Cheese (Parmesan)",
+          "Description": "Hard, granular cheese",
+          "FoodCategoryId": 3,
+          "CaloriesPerUnit": 406.00,
+          "ProteinPerUnit": 32.00,
+          "CarbohydratesPerUnit": 3.00,
+          "FatPerUnit": 26.00,
+          "Unit": 0,
+          "FoodCategory": {
+            "FoodCategoryId": 3,
+            "Name": "Dairy & Alternatives",
+            "Description": "Animal dairy products and plant-based alternatives"
+          }
+        }
+      }
+    ],
+    "MealSuggestions": [
+      {
+        "RecipeId": 22,
+        "MealSuggestionId": 5,
+        "MealSuggestion": {
+          "MealSuggestionId": 5,
+          "Name": "Vegetarian/Vegan",
+          "MealType": 0,
+          "Description": "Plant-based recipes.",
+          "EffectiveDate": "2025-02-06T00:00:00",
+          "ExpirationDate": "2025-12-31T00:00:00"
+        }
+      },
+      {
+        "RecipeId": 22,
+        "MealSuggestionId": 13,
+        "MealSuggestion": {
+          "MealSuggestionId": 13,
+          "Name": "Dinner",
+          "MealType": 3,
+          "Description": "Recipes suitable for dinner.",
+          "EffectiveDate": "2025-02-06T00:00:00",
+          "ExpirationDate": "2025-12-31T00:00:00"
+        }
+      }
+    ]
+  },
+  {
+    "RecipeId": 23,
+    "Title": "Hearty Lentil Soup",
+    "Description": "Nutritious soup packed with protein and veggies.",
+    "PrepTimeMinutes": 15,
+    "CookTimeMinutes": 40,
+    "Servings": 6,
+    "Steps": [
+      {
+        "StepId": 65,
+        "RecipeId": 23,
+        "StepNumber": 1,
+        "Instruction": "Rinse lentils thoroughly. Dice onion and carrots."
+      },
+      {
+        "StepId": 66,
+        "RecipeId": 23,
+        "StepNumber": 2,
+        "Instruction": "Heat oil in a pot. Sauté onion and garlic until soft."
+      },
+      {
+        "StepId": 67,
+        "RecipeId": 23,
+        "StepNumber": 3,
+        "Instruction": "Add carrots and lentils. Cover with 6 cups of water."
+      },
+      {
+        "StepId": 68,
+        "RecipeId": 23,
+        "StepNumber": 4,
+        "Instruction": "Simmer for 30 minutes until lentils are tender."
+      },
+      {
+        "StepId": 69,
+        "RecipeId": 23,
+        "StepNumber": 5,
+        "Instruction": "Stir in spinach and cook for 2 more minutes. Season with salt."
+      }
+    ],
+    "Ingredients": [
+      {
+        "IngredientId": 53,
+        "RecipeId": 23,
+        "FoodItemId": 34,
+        "Quantity": 1.00,
+        "Unit": 7,
+        "FoodItem": {
+          "FoodItemId": 34,
+          "Name": "Onion",
+          "Description": "Yellow cooking onion",
+          "FoodCategoryId": 1,
+          "CaloriesPerUnit": 40.00,
+          "ProteinPerUnit": 1.10,
+          "CarbohydratesPerUnit": 9.34,
+          "FatPerUnit": 0.10,
+          "Unit": 0,
+          "FoodCategory": {
+            "FoodCategoryId": 1,
+            "Name": "Vegetables",
+            "Description": "All forms of vegetables including leafy greens, roots, and cruciferous"
+          }
+        }
+      },
+      {
+        "IngredientId": 54,
+        "RecipeId": 23,
+        "FoodItemId": 13,
+        "Quantity": 150.00,
+        "Unit": 0,
+        "FoodItem": {
+          "FoodItemId": 13,
+          "Name": "Carrot",
+          "Description": "Orange root vegetable",
+          "FoodCategoryId": 1,
+          "CaloriesPerUnit": 41.00,
+          "ProteinPerUnit": 0.90,
+          "CarbohydratesPerUnit": 9.58,
+          "FatPerUnit": 0.24,
+          "Unit": 0,
+          "FoodCategory": {
+            "FoodCategoryId": 1,
+            "Name": "Vegetables",
+            "Description": "All forms of vegetables including leafy greens, roots, and cruciferous"
+          }
+        }
+      },
+      {
+        "IngredientId": 55,
+        "RecipeId": 23,
+        "FoodItemId": 254,
+        "Quantity": 2.00,
+        "Unit": 9,
+        "FoodItem": {
+          "FoodItemId": 254,
+          "Name": "Garlic",
+          "Description": "Fresh garlic cloves",
+          "FoodCategoryId": 13,
+          "CaloriesPerUnit": 149.00,
+          "ProteinPerUnit": 6.40,
+          "CarbohydratesPerUnit": 33.00,
+          "FatPerUnit": 0.50,
+          "Unit": 9,
+          "FoodCategory": {
+            "FoodCategoryId": 13,
+            "Name": "Herbs & Spices",
+            "Description": "Culinary flavorings and seasoning agents"
+          }
+        }
+      },
+      {
+        "IngredientId": 56,
+        "RecipeId": 23,
+        "FoodItemId": 230,
+        "Quantity": 20.00,
+        "Unit": 5,
+        "FoodItem": {
+          "FoodItemId": 230,
+          "Name": "Vegetable Oil",
+          "Description": "Liquid fat",
+          "FoodCategoryId": 11,
+          "CaloriesPerUnit": 120.00,
+          "ProteinPerUnit": 0.00,
+          "CarbohydratesPerUnit": 0.00,
+          "FatPerUnit": 14.00,
+          "Unit": 5,
+          "FoodCategory": {
+            "FoodCategoryId": 11,
+            "Name": "Fats & Oils",
+            "Description": "Cooking oils, butter, and lipid-based products"
+          }
+        }
+      },
+      {
+        "IngredientId": 57,
+        "RecipeId": 23,
+        "FoodItemId": 43,
+        "Quantity": 100.00,
+        "Unit": 0,
+        "FoodItem": {
+          "FoodItemId": 43,
+          "Name": "Spinach",
+          "Description": "Leafy green vegetable",
+          "FoodCategoryId": 1,
+          "CaloriesPerUnit": 23.00,
+          "ProteinPerUnit": 2.90,
+          "CarbohydratesPerUnit": 3.63,
+          "FatPerUnit": 0.39,
+          "Unit": 0,
+          "FoodCategory": {
+            "FoodCategoryId": 1,
+            "Name": "Vegetables",
+            "Description": "All forms of vegetables including leafy greens, roots, and cruciferous"
+          }
+        }
+      }
+    ],
+    "MealSuggestions": [
+      {
+        "RecipeId": 23,
+        "MealSuggestionId": 2,
+        "MealSuggestion": {
+          "MealSuggestionId": 2,
+          "Name": "Healthy & Nutritious",
+          "MealType": 0,
+          "Description": "Recipes focused on nutrition and well-being.",
+          "EffectiveDate": "2025-02-06T00:00:00",
+          "ExpirationDate": "2025-12-31T00:00:00"
+        }
+      },
+      {
+        "RecipeId": 23,
+        "MealSuggestionId": 13,
+        "MealSuggestion": {
+          "MealSuggestionId": 13,
+          "Name": "Dinner",
+          "MealType": 3,
+          "Description": "Recipes suitable for dinner.",
+          "EffectiveDate": "2025-02-06T00:00:00",
+          "ExpirationDate": "2025-12-31T00:00:00"
+        }
+      }
+    ]
+  },
+  {
+    "RecipeId": 24,
+    "Title": "Veggie Sticks with Hummus",
+    "Description": "Crunchy vegetables with creamy dip.",
+    "PrepTimeMinutes": 10,
+    "CookTimeMinutes": 0,
+    "Servings": 4,
+    "Steps": [
+      {
+        "StepId": 70,
+        "RecipeId": 24,
+        "StepNumber": 1,
+        "Instruction": "Wash and peel carrots. Cut into sticks."
+      },
+      {
+        "StepId": 71,
+        "RecipeId": 24,
+        "StepNumber": 2,
+        "Instruction": "Slice celery and cucumber into sticks."
+      },
+      {
+        "StepId": 72,
+        "RecipeId": 24,
+        "StepNumber": 3,
+        "Instruction": "Arrange veggies on a plate with hummus in a bowl."
+      }
+    ],
+    "Ingredients": [
+      {
+        "IngredientId": 58,
+        "RecipeId": 24,
+        "FoodItemId": 13,
+        "Quantity": 2.00,
+        "Unit": 7,
+        "FoodItem": {
+          "FoodItemId": 13,
+          "Name": "Carrot",
+          "Description": "Orange root vegetable",
+          "FoodCategoryId": 1,
+          "CaloriesPerUnit": 41.00,
+          "ProteinPerUnit": 0.90,
+          "CarbohydratesPerUnit": 9.58,
+          "FatPerUnit": 0.24,
+          "Unit": 0,
+          "FoodCategory": {
+            "FoodCategoryId": 1,
+            "Name": "Vegetables",
+            "Description": "All forms of vegetables including leafy greens, roots, and cruciferous"
+          }
+        }
+      },
+      {
+        "IngredientId": 59,
+        "RecipeId": 24,
+        "FoodItemId": 16,
+        "Quantity": 2.00,
+        "Unit": 7,
+        "FoodItem": {
+          "FoodItemId": 16,
+          "Name": "Celery",
+          "Description": "Crunchy stalk vegetable",
+          "FoodCategoryId": 1,
+          "CaloriesPerUnit": 16.00,
+          "ProteinPerUnit": 0.70,
+          "CarbohydratesPerUnit": 3.00,
+          "FatPerUnit": 0.20,
+          "Unit": 0,
+          "FoodCategory": {
+            "FoodCategoryId": 1,
+            "Name": "Vegetables",
+            "Description": "All forms of vegetables including leafy greens, roots, and cruciferous"
+          }
+        }
+      },
+      {
+        "IngredientId": 60,
+        "RecipeId": 24,
+        "FoodItemId": 19,
+        "Quantity": 1.00,
+        "Unit": 7,
+        "FoodItem": {
+          "FoodItemId": 19,
+          "Name": "Cucumber",
+          "Description": "Green watery vegetable",
+          "FoodCategoryId": 1,
+          "CaloriesPerUnit": 16.00,
+          "ProteinPerUnit": 0.70,
+          "CarbohydratesPerUnit": 3.63,
+          "FatPerUnit": 0.10,
+          "Unit": 0,
+          "FoodCategory": {
+            "FoodCategoryId": 1,
+            "Name": "Vegetables",
+            "Description": "All forms of vegetables including leafy greens, roots, and cruciferous"
+          }
+        }
+      },
+      {
+        "IngredientId": 61,
+        "RecipeId": 24,
+        "FoodItemId": 342,
+        "Quantity": 150.00,
+        "Unit": 0,
+        "FoodItem": {
+          "FoodItemId": 342,
+          "Name": "Hummus",
+          "Description": "Middle Eastern chickpea dip",
+          "FoodCategoryId": 19,
+          "CaloriesPerUnit": 250.00,
+          "ProteinPerUnit": 10.00,
+          "CarbohydratesPerUnit": 20.00,
+          "FatPerUnit": 15.00,
+          "Unit": 0,
+          "FoodCategory": {
+            "FoodCategoryId": 19,
+            "Name": "International",
+            "Description": "Ethnic-specific food ingredients"
+          }
+        }
+      }
+    ],
+    "MealSuggestions": [
+      {
+        "RecipeId": 24,
+        "MealSuggestionId": 14,
+        "MealSuggestion": {
+          "MealSuggestionId": 14,
+          "Name": "Snack",
+          "MealType": 4,
+          "Description": "Recipes suitable for snacks.",
+          "EffectiveDate": "2025-02-06T00:00:00",
+          "ExpirationDate": "2025-12-31T00:00:00"
+        }
+      }
+    ]
+  },
+  {
+    "RecipeId": 25,
+    "Title": "Quinoa Salad Bowl",
+    "Description": "Protein-packed salad with fresh ingredients.",
+    "PrepTimeMinutes": 20,
+    "CookTimeMinutes": 15,
+    "Servings": 2,
+    "Steps": [
+      {
+        "StepId": 73,
+        "RecipeId": 25,
+        "StepNumber": 1,
+        "Instruction": "Cook quinoa according to package instructions. Let cool."
+      },
+      {
+        "StepId": 74,
+        "RecipeId": 25,
+        "StepNumber": 2,
+        "Instruction": "Dice cucumber and bell pepper."
+      },
+      {
+        "StepId": 75,
+        "RecipeId": 25,
+        "StepNumber": 3,
+        "Instruction": "Mix quinoa with vegetables. Drizzle with olive oil and lemon juice."
+      }
+    ],
+    "Ingredients": [
+      {
+        "IngredientId": 62,
+        "RecipeId": 25,
+        "FoodItemId": 104,
+        "Quantity": 150.00,
+        "Unit": 0,
+        "FoodItem": {
+          "FoodItemId": 104,
+          "Name": "Quinoa",
+          "Description": "Gluten-free grain",
+          "FoodCategoryId": 4,
+          "CaloriesPerUnit": 111.00,
+          "ProteinPerUnit": 4.00,
+          "CarbohydratesPerUnit": 20.00,
+          "FatPerUnit": 1.90,
+          "Unit": 0,
+          "FoodCategory": {
+            "FoodCategoryId": 4,
+            "Name": "Grains & Cereals",
+            "Description": "Wheat, rice, oats, barley, and derived products"
+          }
+        }
+      },
+      {
+        "IngredientId": 63,
+        "RecipeId": 25,
+        "FoodItemId": 19,
+        "Quantity": 1.00,
+        "Unit": 7,
+        "FoodItem": {
+          "FoodItemId": 19,
+          "Name": "Cucumber",
+          "Description": "Green watery vegetable",
+          "FoodCategoryId": 1,
+          "CaloriesPerUnit": 16.00,
+          "ProteinPerUnit": 0.70,
+          "CarbohydratesPerUnit": 3.63,
+          "FatPerUnit": 0.10,
+          "Unit": 0,
+          "FoodCategory": {
+            "FoodCategoryId": 1,
+            "Name": "Vegetables",
+            "Description": "All forms of vegetables including leafy greens, roots, and cruciferous"
+          }
+        }
+      },
+      {
+        "IngredientId": 64,
+        "RecipeId": 25,
+        "FoodItemId": 6,
+        "Quantity": 1.00,
+        "Unit": 7,
+        "FoodItem": {
+          "FoodItemId": 6,
+          "Name": "Bell Pepper",
+          "Description": "Colorful capsicum",
+          "FoodCategoryId": 1,
+          "CaloriesPerUnit": 31.00,
+          "ProteinPerUnit": 1.00,
+          "CarbohydratesPerUnit": 6.03,
+          "FatPerUnit": 0.30,
+          "Unit": 0,
+          "FoodCategory": {
+            "FoodCategoryId": 1,
+            "Name": "Vegetables",
+            "Description": "All forms of vegetables including leafy greens, roots, and cruciferous"
+          }
+        }
+      },
+      {
+        "IngredientId": 65,
+        "RecipeId": 25,
+        "FoodItemId": 225,
+        "Quantity": 30.00,
+        "Unit": 5,
+        "FoodItem": {
+          "FoodItemId": 225,
+          "Name": "Olive Oil",
+          "Description": "Mediterranean cooking oil",
+          "FoodCategoryId": 11,
+          "CaloriesPerUnit": 884.00,
+          "ProteinPerUnit": 0.00,
+          "CarbohydratesPerUnit": 0.00,
+          "FatPerUnit": 100.00,
+          "Unit": 5,
+          "FoodCategory": {
+            "FoodCategoryId": 11,
+            "Name": "Fats & Oils",
+            "Description": "Cooking oils, butter, and lipid-based products"
+          }
+        }
+      }
+    ],
+    "MealSuggestions": [
+      {
+        "RecipeId": 25,
+        "MealSuggestionId": 2,
+        "MealSuggestion": {
+          "MealSuggestionId": 2,
+          "Name": "Healthy & Nutritious",
+          "MealType": 0,
+          "Description": "Recipes focused on nutrition and well-being.",
+          "EffectiveDate": "2025-02-06T00:00:00",
+          "ExpirationDate": "2025-12-31T00:00:00"
+        }
+      },
+      {
+        "RecipeId": 25,
+        "MealSuggestionId": 12,
+        "MealSuggestion": {
+          "MealSuggestionId": 12,
+          "Name": "Lunch",
+          "MealType": 2,
+          "Description": "Recipes suitable for lunch.",
+          "EffectiveDate": "2025-02-06T00:00:00",
+          "ExpirationDate": "2025-12-31T00:00:00"
+        }
+      }
+    ]
+  },
+  {
+    "RecipeId": 26,
+    "Title": "Chicken Tikka Masala",
+    "Description": "A creamy and flavorful Indian curry dish.",
+    "PrepTimeMinutes": 20,
+    "CookTimeMinutes": 40,
+    "Servings": 4,
+    "Steps": [
+      {
+        "StepId": 76,
+        "RecipeId": 26,
+        "StepNumber": 1,
+        "Instruction": "Marinate chicken in yogurt, garlic, ginger, cumin, and coriander for 1 hour."
+      },
+      {
+        "StepId": 77,
+        "RecipeId": 26,
+        "StepNumber": 2,
+        "Instruction": "Grill or pan-fry the chicken until cooked. Set aside."
+      },
+      {
+        "StepId": 78,
+        "RecipeId": 26,
+        "StepNumber": 3,
+        "Instruction": "Sauté onions, garlic, and ginger in a pan until soft. Add tomatoes and cook until pulpy."
+      },
+      {
+        "StepId": 79,
+        "RecipeId": 26,
+        "StepNumber": 4,
+        "Instruction": "Blend the tomato mixture into a smooth sauce."
+      },
+      {
+        "StepId": 80,
+        "RecipeId": 26,
+        "StepNumber": 5,
+        "Instruction": "Add cream and cooked chicken to the sauce. Simmer for 10 minutes."
+      },
+      {
+        "StepId": 81,
+        "RecipeId": 26,
+        "StepNumber": 6,
+        "Instruction": "Serve with rice or naan."
+      }
+    ],
+    "Ingredients": [
+      {
+        "IngredientId": 67,
+        "RecipeId": 26,
+        "FoodItemId": 115,
+        "Quantity": 500.00,
+        "Unit": 0,
+        "FoodItem": {
+          "FoodItemId": 115,
+          "Name": "Chicken Breast",
+          "Description": "Boneless skinless poultry",
+          "FoodCategoryId": 5,
+          "CaloriesPerUnit": 165.00,
+          "ProteinPerUnit": 31.00,
+          "CarbohydratesPerUnit": 0.00,
+          "FatPerUnit": 3.60,
+          "Unit": 0,
+          "FoodCategory": {
+            "FoodCategoryId": 5,
+            "Name": "Proteins",
+            "Description": "Animal and plant-based protein sources"
+          }
+        }
+      },
+      {
+        "IngredientId": 68,
+        "RecipeId": 26,
+        "FoodItemId": 90,
+        "Quantity": 200.00,
+        "Unit": 0,
+        "FoodItem": {
+          "FoodItemId": 90,
+          "Name": "Yogurt (Cow)",
+          "Description": "Fermented dairy product",
+          "FoodCategoryId": 3,
+          "CaloriesPerUnit": 59.00,
+          "ProteinPerUnit": 10.00,
+          "CarbohydratesPerUnit": 8.00,
+          "FatPerUnit": 0.50,
+          "Unit": 0,
+          "FoodCategory": {
+            "FoodCategoryId": 3,
+            "Name": "Dairy & Alternatives",
+            "Description": "Animal dairy products and plant-based alternatives"
+          }
+        }
+      },
+      {
+        "IngredientId": 70,
+        "RecipeId": 26,
+        "FoodItemId": 34,
+        "Quantity": 1.00,
+        "Unit": 7,
+        "FoodItem": {
+          "FoodItemId": 34,
+          "Name": "Onion",
+          "Description": "Yellow cooking onion",
+          "FoodCategoryId": 1,
+          "CaloriesPerUnit": 40.00,
+          "ProteinPerUnit": 1.10,
+          "CarbohydratesPerUnit": 9.34,
+          "FatPerUnit": 0.10,
+          "Unit": 0,
+          "FoodCategory": {
+            "FoodCategoryId": 1,
+            "Name": "Vegetables",
+            "Description": "All forms of vegetables including leafy greens, roots, and cruciferous"
+          }
+        }
+      },
+      {
+        "IngredientId": 71,
+        "RecipeId": 26,
+        "FoodItemId": 254,
+        "Quantity": 3.00,
+        "Unit": 9,
+        "FoodItem": {
+          "FoodItemId": 254,
+          "Name": "Garlic",
+          "Description": "Fresh garlic cloves",
+          "FoodCategoryId": 13,
+          "CaloriesPerUnit": 149.00,
+          "ProteinPerUnit": 6.40,
+          "CarbohydratesPerUnit": 33.00,
+          "FatPerUnit": 0.50,
+          "Unit": 9,
+          "FoodCategory": {
+            "FoodCategoryId": 13,
+            "Name": "Herbs & Spices",
+            "Description": "Culinary flavorings and seasoning agents"
+          }
+        }
+      },
+      {
+        "IngredientId": 72,
+        "RecipeId": 26,
+        "FoodItemId": 255,
+        "Quantity": 20.00,
+        "Unit": 0,
+        "FoodItem": {
+          "FoodItemId": 255,
+          "Name": "Ginger",
+          "Description": "A spicy root",
+          "FoodCategoryId": 13,
+          "CaloriesPerUnit": 80.00,
+          "ProteinPerUnit": 2.00,
+          "CarbohydratesPerUnit": 18.00,
+          "FatPerUnit": 1.00,
+          "Unit": 0,
+          "FoodCategory": {
+            "FoodCategoryId": 13,
+            "Name": "Herbs & Spices",
+            "Description": "Culinary flavorings and seasoning agents"
+          }
+        }
+      },
+      {
+        "IngredientId": 75,
+        "RecipeId": 26,
+        "FoodItemId": 79,
+        "Quantity": 100.00,
+        "Unit": 0,
+        "FoodItem": {
+          "FoodItemId": 79,
+          "Name": "Cream",
+          "Description": "Dairy product",
+          "FoodCategoryId": 3,
+          "CaloriesPerUnit": 204.00,
+          "ProteinPerUnit": 3.00,
+          "CarbohydratesPerUnit": 3.00,
+          "FatPerUnit": 21.00,
+          "Unit": 0,
+          "FoodCategory": {
+            "FoodCategoryId": 3,
+            "Name": "Dairy & Alternatives",
+            "Description": "Animal dairy products and plant-based alternatives"
+          }
+        }
+      }
+    ],
+    "MealSuggestions": [
+      {
+        "RecipeId": 26,
+        "MealSuggestionId": 4,
+        "MealSuggestion": {
+          "MealSuggestionId": 4,
+          "Name": "International Cuisine",
+          "MealType": 0,
+          "Description": "Recipes inspired by different cultures.",
+          "EffectiveDate": "2025-02-06T00:00:00",
+          "ExpirationDate": "2025-12-31T00:00:00"
+        }
+      },
+      {
+        "RecipeId": 26,
+        "MealSuggestionId": 13,
+        "MealSuggestion": {
+          "MealSuggestionId": 13,
+          "Name": "Dinner",
+          "MealType": 3,
+          "Description": "Recipes suitable for dinner.",
+          "EffectiveDate": "2025-02-06T00:00:00",
+          "ExpirationDate": "2025-12-31T00:00:00"
+        }
+      }
+    ]
+  },
+  {
+    "RecipeId": 27,
+    "Title": "Vegan Buddha Bowl",
+    "Description": "A nutrient-packed bowl with grains, veggies, and plant-based protein.",
+    "PrepTimeMinutes": 15,
+    "CookTimeMinutes": 20,
+    "Servings": 2,
+    "Steps": [
+      {
+        "StepId": 82,
+        "RecipeId": 27,
+        "StepNumber": 1,
+        "Instruction": "Cook quinoa according to package instructions."
+      },
+      {
+        "StepId": 83,
+        "RecipeId": 27,
+        "StepNumber": 2,
+        "Instruction": "Roast sweet potato cubes in the oven at 400°F for 15 minutes."
+      },
+      {
+        "StepId": 84,
+        "RecipeId": 27,
+        "StepNumber": 3,
+        "Instruction": "Sauté kale in olive oil until wilted."
+      },
+      {
+        "StepId": 85,
+        "RecipeId": 27,
+        "StepNumber": 4,
+        "Instruction": "Assemble the bowl with quinoa, roasted sweet potato, kale, chickpeas, and avocado slices."
+      },
+      {
+        "StepId": 86,
+        "RecipeId": 27,
+        "StepNumber": 5,
+        "Instruction": "Drizzle with tahini dressing."
+      }
+    ],
+    "Ingredients": [
+      {
+        "IngredientId": 76,
+        "RecipeId": 27,
+        "FoodItemId": 104,
+        "Quantity": 100.00,
+        "Unit": 0,
+        "FoodItem": {
+          "FoodItemId": 104,
+          "Name": "Quinoa",
+          "Description": "Gluten-free grain",
+          "FoodCategoryId": 4,
+          "CaloriesPerUnit": 111.00,
+          "ProteinPerUnit": 4.00,
+          "CarbohydratesPerUnit": 20.00,
+          "FatPerUnit": 1.90,
+          "Unit": 0,
+          "FoodCategory": {
+            "FoodCategoryId": 4,
+            "Name": "Grains & Cereals",
+            "Description": "Wheat, rice, oats, barley, and derived products"
+          }
+        }
+      },
+      {
+        "IngredientId": 78,
+        "RecipeId": 27,
+        "FoodItemId": 28,
+        "Quantity": 100.00,
+        "Unit": 0,
+        "FoodItem": {
+          "FoodItemId": 28,
+          "Name": "Kale",
+          "Description": "Leafy green vegetable",
+          "FoodCategoryId": 1,
+          "CaloriesPerUnit": 49.00,
+          "ProteinPerUnit": 4.30,
+          "CarbohydratesPerUnit": 8.75,
+          "FatPerUnit": 0.90,
+          "Unit": 0,
+          "FoodCategory": {
+            "FoodCategoryId": 1,
+            "Name": "Vegetables",
+            "Description": "All forms of vegetables including leafy greens, roots, and cruciferous"
+          }
+        }
+      },
+      {
+        "IngredientId": 79,
+        "RecipeId": 27,
+        "FoodItemId": 44,
+        "Quantity": 1.00,
+        "Unit": 7,
+        "FoodItem": {
+          "FoodItemId": 44,
+          "Name": "Sweet Potato",
+          "Description": "Orange root vegetable",
+          "FoodCategoryId": 1,
+          "CaloriesPerUnit": 86.00,
+          "ProteinPerUnit": 1.60,
+          "CarbohydratesPerUnit": 20.12,
+          "FatPerUnit": 0.10,
+          "Unit": 0,
+          "FoodCategory": {
+            "FoodCategoryId": 1,
+            "Name": "Vegetables",
+            "Description": "All forms of vegetables including leafy greens, roots, and cruciferous"
+          }
+        }
+      }
+    ],
+    "MealSuggestions": [
+      {
+        "RecipeId": 27,
+        "MealSuggestionId": 5,
+        "MealSuggestion": {
+          "MealSuggestionId": 5,
+          "Name": "Vegetarian/Vegan",
+          "MealType": 0,
+          "Description": "Plant-based recipes.",
+          "EffectiveDate": "2025-02-06T00:00:00",
+          "ExpirationDate": "2025-12-31T00:00:00"
+        }
+      },
+      {
+        "RecipeId": 27,
+        "MealSuggestionId": 12,
+        "MealSuggestion": {
+          "MealSuggestionId": 12,
+          "Name": "Lunch",
+          "MealType": 2,
+          "Description": "Recipes suitable for lunch.",
+          "EffectiveDate": "2025-02-06T00:00:00",
+          "ExpirationDate": "2025-12-31T00:00:00"
+        }
+      }
+    ]
+  },
+  {
+    "RecipeId": 28,
+    "Title": "Grilled Salmon with Asparagus",
+    "Description": "A high-protein, healthy dinner option.",
+    "PrepTimeMinutes": 10,
+    "CookTimeMinutes": 20,
+    "Servings": 2,
+    "Steps": [
+      {
+        "StepId": 87,
+        "RecipeId": 28,
+        "StepNumber": 1,
+        "Instruction": "Preheat grill or grill pan."
+      },
+      {
+        "StepId": 88,
+        "RecipeId": 28,
+        "StepNumber": 2,
+        "Instruction": "Season salmon with salt, pepper, and olive oil. Grill for 5-7 minutes per side."
+      },
+      {
+        "StepId": 89,
+        "RecipeId": 28,
+        "StepNumber": 3,
+        "Instruction": "Toss asparagus with olive oil and grill for 5 minutes."
+      },
+      {
+        "StepId": 90,
+        "RecipeId": 28,
+        "StepNumber": 4,
+        "Instruction": "Serve salmon with grilled asparagus and a lemon wedge."
+      }
+    ],
+    "Ingredients": [
+      {
+        "IngredientId": 82,
+        "RecipeId": 28,
+        "FoodItemId": 126,
+        "Quantity": 300.00,
+        "Unit": 0,
+        "FoodItem": {
+          "FoodItemId": 126,
+          "Name": "Salmon Fillet",
+          "Description": "Fatty fish protein",
+          "FoodCategoryId": 5,
+          "CaloriesPerUnit": 208.00,
+          "ProteinPerUnit": 20.00,
+          "CarbohydratesPerUnit": 0.00,
+          "FatPerUnit": 13.00,
+          "Unit": 0,
+          "FoodCategory": {
+            "FoodCategoryId": 5,
+            "Name": "Proteins",
+            "Description": "Animal and plant-based protein sources"
+          }
+        }
+      },
+      {
+        "IngredientId": 83,
+        "RecipeId": 28,
+        "FoodItemId": 4,
+        "Quantity": 200.00,
+        "Unit": 0,
+        "FoodItem": {
+          "FoodItemId": 4,
+          "Name": "Asparagus",
+          "Description": "Green stalk vegetable",
+          "FoodCategoryId": 1,
+          "CaloriesPerUnit": 20.00,
+          "ProteinPerUnit": 2.20,
+          "CarbohydratesPerUnit": 3.88,
+          "FatPerUnit": 0.12,
+          "Unit": 0,
+          "FoodCategory": {
+            "FoodCategoryId": 1,
+            "Name": "Vegetables",
+            "Description": "All forms of vegetables including leafy greens, roots, and cruciferous"
+          }
+        }
+      },
+      {
+        "IngredientId": 84,
+        "RecipeId": 28,
+        "FoodItemId": 225,
+        "Quantity": 20.00,
+        "Unit": 5,
+        "FoodItem": {
+          "FoodItemId": 225,
+          "Name": "Olive Oil",
+          "Description": "Mediterranean cooking oil",
+          "FoodCategoryId": 11,
+          "CaloriesPerUnit": 884.00,
+          "ProteinPerUnit": 0.00,
+          "CarbohydratesPerUnit": 0.00,
+          "FatPerUnit": 100.00,
+          "Unit": 5,
+          "FoodCategory": {
+            "FoodCategoryId": 11,
+            "Name": "Fats & Oils",
+            "Description": "Cooking oils, butter, and lipid-based products"
+          }
+        }
+      }
+    ],
+    "MealSuggestions": [
+      {
+        "RecipeId": 28,
+        "MealSuggestionId": 7,
+        "MealSuggestion": {
+          "MealSuggestionId": 7,
+          "Name": "High-Protein",
+          "MealType": 0,
+          "Description": "Recipes designed to be high in protein.",
+          "EffectiveDate": "2025-02-06T00:00:00",
+          "ExpirationDate": "2025-12-31T00:00:00"
+        }
+      },
+      {
+        "RecipeId": 28,
+        "MealSuggestionId": 13,
+        "MealSuggestion": {
+          "MealSuggestionId": 13,
+          "Name": "Dinner",
+          "MealType": 3,
+          "Description": "Recipes suitable for dinner.",
+          "EffectiveDate": "2025-02-06T00:00:00",
+          "ExpirationDate": "2025-12-31T00:00:00"
+        }
+      }
+    ]
+  },
+  {
+    "RecipeId": 29,
+    "Title": "Miso Soup",
+    "Description": "A traditional Japanese soup with tofu and seaweed.",
+    "PrepTimeMinutes": 10,
+    "CookTimeMinutes": 15,
+    "Servings": 2,
+    "Steps": [
+      {
+        "StepId": 91,
+        "RecipeId": 29,
+        "StepNumber": 1,
+        "Instruction": "Bring 4 cups of water to a boil."
+      },
+      {
+        "StepId": 92,
+        "RecipeId": 29,
+        "StepNumber": 2,
+        "Instruction": "Dissolve miso paste in the water."
+      },
+      {
+        "StepId": 93,
+        "RecipeId": 29,
+        "StepNumber": 3,
+        "Instruction": "Add tofu cubes and seaweed. Simmer for 5 minutes."
+      },
+      {
+        "StepId": 94,
+        "RecipeId": 29,
+        "StepNumber": 4,
+        "Instruction": "Garnish with chopped green onions and serve."
+      }
+    ],
+    "Ingredients": [
+      {
+        "IngredientId": 86,
+        "RecipeId": 29,
+        "FoodItemId": 299,
+        "Quantity": 30.00,
+        "Unit": 0,
+        "FoodItem": {
+          "FoodItemId": 299,
+          "Name": "Miso Paste",
+          "Description": "Fermented soybean paste",
+          "FoodCategoryId": 16,
+          "CaloriesPerUnit": 199.00,
+          "ProteinPerUnit": 11.00,
+          "CarbohydratesPerUnit": 25.00,
+          "FatPerUnit": 6.00,
+          "Unit": 0,
+          "FoodCategory": {
+            "FoodCategoryId": 16,
+            "Name": "Fermented Foods",
+            "Description": "Kimchi, yogurt, sauerkraut, and cultured products"
+          }
+        }
+      },
+      {
+        "IngredientId": 87,
+        "RecipeId": 29,
+        "FoodItemId": 128,
+        "Quantity": 100.00,
+        "Unit": 0,
+        "FoodItem": {
+          "FoodItemId": 128,
+          "Name": "Tofu",
+          "Description": "Soy product",
+          "FoodCategoryId": 5,
+          "CaloriesPerUnit": 76.00,
+          "ProteinPerUnit": 8.00,
+          "CarbohydratesPerUnit": 3.00,
+          "FatPerUnit": 5.00,
+          "Unit": 0,
+          "FoodCategory": {
+            "FoodCategoryId": 5,
+            "Name": "Proteins",
+            "Description": "Animal and plant-based protein sources"
+          }
+        }
+      }
+    ],
+    "MealSuggestions": [
+      {
+        "RecipeId": 29,
+        "MealSuggestionId": 4,
+        "MealSuggestion": {
+          "MealSuggestionId": 4,
+          "Name": "International Cuisine",
+          "MealType": 0,
+          "Description": "Recipes inspired by different cultures.",
+          "EffectiveDate": "2025-02-06T00:00:00",
+          "ExpirationDate": "2025-12-31T00:00:00"
+        }
+      },
+      {
+        "RecipeId": 29,
+        "MealSuggestionId": 14,
+        "MealSuggestion": {
+          "MealSuggestionId": 14,
+          "Name": "Snack",
+          "MealType": 4,
+          "Description": "Recipes suitable for snacks.",
+          "EffectiveDate": "2025-02-06T00:00:00",
+          "ExpirationDate": "2025-12-31T00:00:00"
+        }
+      }
+    ]
+  }
+]

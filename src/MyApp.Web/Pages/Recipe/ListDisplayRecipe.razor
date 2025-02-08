@@ -1,0 +1,43 @@
+﻿@using MyApp.Application.DTOs.Food
+@inject HttpClient Http
+
+<div class="container">
+    <h1 class="my-4 text-center">Recipes</h1>
+</div>
+
+@if (isLoading)
+{
+    <p><em>Loading...</em></p>
+}
+else
+{
+    <TableDisplayRecipe Recipes="Recipes" OnDisplay="ShowDisplayModal" />
+}
+
+<DisplayModalRecipe @ref="displayModal" />
+
+@code {
+    private List<RecipeDto>? Recipes;
+    private bool isLoading = true;
+    private DisplayModalRecipe? displayModal;
+
+    protected override async Task OnInitializedAsync()
+    {
+        await LoadRecipes();
+    }
+
+    private async Task LoadRecipes()
+    {
+        isLoading = true;
+
+        Recipes = await Http.GetFromJsonAsync<List<RecipeDto>>("data/recipe_list.json");
+
+        isLoading = false;
+        StateHasChanged();
+    }
+
+    private async void ShowDisplayModal(RecipeDto id)
+    {
+        displayModal!.Show(id);
+    }
+}
