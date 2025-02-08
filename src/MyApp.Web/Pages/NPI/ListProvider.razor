@@ -59,8 +59,8 @@
     </div>
 
     <div class="my-3 text-center">
-        <button class="btn btn-primary me-2" @onclick="@ButtonSearch">Search</button>
-        <button class="btn btn-danger" @onclick="@ButtonReset">Reset</button>
+        <button class="btn btn-primary me-2" @onclick="@ButtonSearch" disabled>Search</button>
+        <button class="btn btn-danger" @onclick="@ButtonReset" disabled>Reset</button>
     </div>
 
     @if (isLoading)
@@ -106,12 +106,9 @@
 
         try
         {
-            providers = await ProviderUseCases.GetProvidersAsync(searchCriteria);
-        }
-        catch
-        {
             // Note: We need to create a proxy server but we dont have access so we using cached data
             providers = await Http.GetFromJsonAsync<List<ProviderDto>>("data/npi_registry.json");
+            //providers = await ProviderUseCases.GetProvidersAsync(searchCriteria);
         }
         finally
         {
