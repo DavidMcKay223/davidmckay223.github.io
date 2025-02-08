@@ -17,4 +17,14 @@
     </Content>
   </ItemGroup>
 
+  <ItemGroup>
+    <Folder Include="wwwroot\data\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\MyApp.Application\MyApp.Application.csproj" />
+    <ProjectReference Include="..\MyApp.Infrastructure\MyApp.Infrastructure.csproj" />
+    <ProjectReference Include="..\MyApp.Shared\MyApp.Shared.csproj" />
+  </ItemGroup>
+
 </Project>

@@ -2,6 +2,97 @@
 
 <PageTitle>Home</PageTitle>
 
-<h1>Test</h1>
+<h1>Welcome to David McKay</h1>
 
-Welcome to your new app.
+<div class="container">
+    <div class="row">
+        <div class="col-md-8">
+            <h2>Summary</h2>
+            <p>
+                Highly motivated and results-driven Software Engineer with 6+ years of experience in designing,
+                developing, and implementing robust and scalable applications using C#, .NET, and related
+                technologies. Passionate about clean code, efficient testing practices, and collaborative team
+                environments. Eager to contribute expertise and drive innovation in a challenging and rewarding
+                role.
+            </p>
+
+            <h2>Technical Skills</h2>
+            <div class="skills-table">
+                <div class="row">
+                    @foreach (var skillCategory in SkillCategories)
+                    {
+                        <div class="col-md-4 mb-4">
+                            <strong>@skillCategory.Name</strong>
+                            @foreach (var skill in skillCategory.Skills)
+                            {
+                                <div class="col-md-12">@skill</div>
+                            }
+                        </div>
+                    }
+                </div>
+            </div>
+
+            <h2>Side Projects</h2>
+            <p><strong>GitHub:</strong> <a href="https://github.com/DavidMcKay223/MyFoodApp" target="_blank">DavidMcKay223</a></p>
+            <p><strong>MyFoodApp:</strong> Find recipes and suggestions fast and easy smart tags and PDF generation.</p>
+
+            <h2>Professional Experience</h2>
+            <h3>Senior Software Engineer</h3>
+            <p>Manageware LLC, Mesa, AZ — September 2016 - October 2022</p>
+
+            <h4>Bill Review Engine</h4>
+            <p>Backend | .NET | C# | SQL | LINQ | Web Service</p>
+
+            <strong>New Framework Design:</strong>
+            <ul>
+                <li> Developed a scalable framework on top of existing code base, using C# and .NET, reducing state-specific code by 80%, via delegates and class extensions.</li>
+            </ul>
+
+            <strong>Improved Unit Testing:</strong>
+            <ul>
+                <li> Automated test results for JIRA reporting. Enhanced execution time by 80% faster results, utilizing asserts collection and smart test driven development.</li>
+            </ul>
+
+            <h4>Report Module</h4>
+            <p>Frontend | Backend | .NET | C# | SQL | LLBLGEN | Telerik</p>
+
+            <strong>Automated Reporting System:</strong>
+            <ul>
+                <li> Designed and developed a full-stack solution to automate company reports, enabling users to schedule subscriptions or run reports on-demand.</li>
+            </ul>
+
+            <strong>Access Control:</strong>
+            <ul>
+                <li> Implemented Access Control Lists (ACLs) to ensure data integrity and restrict report access based on user roles.</li>
+            </ul>
+
+            <h2>Education</h2>
+            <p>Arizona State University, Tempe, AZ — BS in Computer Science, Graduated 2016, GPA 3.51</p>
+        </div>
+        <div class="col-md-4">
+            <img src="profile_picture.jpg" alt="Your Picture" class="img-fluid rounded"> <br /> <br />
+            Contact Information: <br />
+            Email: <a href="mailto:david.mckay.dev@gmail.com">david.mckay.dev@gmail.com</a><br />
+            Phone: (480) 430-0066 <br />
+            LinkedIn: <a href="https://www.linkedin.com/in/david-mckay-dev" target="_blank">david-mckay-dev</a>
+        </div>
+    </div>
+</div>
+
+@code {
+    public class SkillCategory
+    {
+        public string Name { get; set; }
+        public List<string> Skills { get; set; }
+    }
+
+    private List<SkillCategory> SkillCategories = new List<SkillCategory>()
+    {
+        new SkillCategory { Name = "Core Technologies", Skills = new List<string> { "C#", ".NET 9 / .NET Core", "Blazor", "Java", "C/C++" } },
+        new SkillCategory { Name = "Web & API Development", Skills = new List<string> { "Web API", "Bootstrap", "Razor Pages", "SOAP", "RESTful" } },
+        new SkillCategory { Name = "Database & ORM", Skills = new List<string> { "Entity Framework", "SQL", "LINQ" } },
+        new SkillCategory { Name = "Testing & Validation", Skills = new List<string> { "XUnit", "Bogus", "Shouldly", "FluentValidation" } },
+        new SkillCategory { Name = "Tools & Collaboration", Skills = new List<string> { "Git", "SVN", "JIRA" } },
+        new SkillCategory { Name = "Data & Utilities", Skills = new List<string> { "JSON", "XML", "AutoMapper", "Newtonsoft Json", "T4" } }
+    };
+}

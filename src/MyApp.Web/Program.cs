@@ -1,11 +1,31 @@
 using Microsoft.AspNetCore.Components.Web;
 using Microsoft.AspNetCore.Components.WebAssembly.Hosting;
+using MyApp.Application.Configurations;
+using MyApp.Application.Interfaces.NPI;
+using MyApp.Application.UseCases.NPI;
+using MyApp.Domain.Abstractions.NPI;
+using MyApp.Infrastructure.ExternalServices.NPI;
+using MyApp.Shared.Interfaces;
+using MyApp.Shared.Services;
 using MyApp.Web;
+using System.Net.Http.Headers;
+using Microsoft.Extensions.DependencyInjection;
+using System.Net.Http;
 
 var builder = WebAssemblyHostBuilder.CreateDefault(args);
 builder.RootComponents.Add<App>("#app");
 builder.RootComponents.Add<HeadOutlet>("head::after");
 
 builder.Services.AddScoped(sp => new HttpClient { BaseAddress = new Uri(builder.HostEnvironment.BaseAddress) });
+
+// Services:
+builder.Services.AddScoped<IStateService, StateService>();
+
+builder.Services.AddScoped<IProviderUseCases, ProviderUseCases>();
+
+builder.Services.AddScoped<INpiRegistryClient, NpiRegistryService>(sp => new NpiRegistryService(new HttpClient { BaseAddress = new Uri("https://npiregistry.cms.hhs.gov/api/") }));
+
+// Register AutoMapper
+builder.Services.AddAutoMapper(typeof(AutoMapperConfiguration));
 
 await builder.Build().RunAsync();
