@@ -10,4 +10,8 @@
     <ProjectReference Include="..\MyApp.Shared\MyApp.Shared.csproj" />
   </ItemGroup>
 
+  <ItemGroup>
+    <Folder Include="Specifications\ECommerce\" />
+  </ItemGroup>
+
 </Project>

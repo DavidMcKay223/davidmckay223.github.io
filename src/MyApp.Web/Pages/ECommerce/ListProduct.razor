@@ -1,0 +1,69 @@
+﻿@using MyApp.Application.Interfaces.ECommerce
+@using MyApp.Application.DTOs.ECommerce
+@inject IFakeStoreUseCases FakeStoreUseCases
+@inject HttpClient Http
+
+<PageTitle>Products</PageTitle>
+
+<div class="container">
+    <h1 class="my-4 text-center">Products</h1>
+
+    @if (isLoading)
+    {
+        <div class="d-flex justify-content-center my-5">
+            <div class="spinner-border text-primary" role="status">
+                <span class="visually-hidden">Loading...</span>
+            </div>
+        </div>
+    }
+    else if (products == null || !products.Any())
+    {
+        <div class="alert alert-info">No products found. Please refine your search.</div>
+    }
+    else
+    {
+        <div class="row g-3">
+            @foreach (var product in products)
+            {
+                <DisplayProduct Product="@product" />
+            }
+        </div>
+    }
+</div>
+
+@code {
+    private List<ProductDto?>? products;
+    private bool isLoading = true;
+
+    protected override async Task OnInitializedAsync()
+    {
+        await LoadProducts();
+    }
+
+    private async Task LoadProducts()
+    {
+        isLoading = true;
+        products = null;
+        StateHasChanged();
+
+        try
+        {
+            products = await FakeStoreUseCases.GetProductsAsync();
+        }
+        finally
+        {
+            isLoading = false;
+            StateHasChanged();
+        }
+    }
+
+    async Task ButtonReset()
+    {
+        await LoadProducts();
+    }
+
+    async Task ButtonSearch()
+    {
+        await LoadProducts();
+    }
+}
