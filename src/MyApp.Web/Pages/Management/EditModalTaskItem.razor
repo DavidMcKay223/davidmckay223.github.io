@@ -1,0 +1,70 @@
+﻿@using MyApp.Application.DTOs.Management
+@using MyApp.Domain.Enums.Management
+
+@code {
+    [Parameter]
+    public EventCallback<TaskItemDto> OnTaskItemSaved { get; set; }
+    private EditForm? EditForm;
+
+    private TaskItemDto? TaskItem;
+
+    public void Show(TaskItemDto? TaskItemToEdit)
+    {
+        TaskItem = TaskItemToEdit ?? new TaskItemDto { Title = "", Description = "" };
+        StateHasChanged();
+    }
+
+    private async Task SaveTaskItem()
+    {
+        await OnTaskItemSaved.InvokeAsync(TaskItem);
+        TaskItem = null;
+    }
+
+    private void Cancel()
+    {
+        TaskItem = null;
+    }
+}
+
+@if (TaskItem != null)
+{
+    <div class="modal-backdrop">
+        <div class="modal show d-block" tabindex="-1">
+            <div class="modal-dialog modal-dialog-centered modal-lg">
+                <div class="modal-content" style="height: 80%;">
+                    <div class="modal-header">
+                        <h5 class="modal-title">Task Item</h5>
+                        <button type="button" class="btn-close" @onclick="Cancel"></button>
+                    </div>
+                    <div class="modal-body">
+                        <EditForm @ref="EditForm" Model="@TaskItem">
+                            <div class="mb-3">
+                                <label for="taskType" class="form-label">Task Type</label>
+                                <InputSelect id="taskType" class="form-control" @bind-Value="TaskItem.TaskType">
+                                    @foreach (var taskType in Enum.GetValues<TaskType>())
+                                    {
+                                        <option value="@taskType">@taskType</option>
+                                    }
+                                </InputSelect>
+                            </div>
+                            <div class="mb-3">
+                                <label for="title" class="form-label">Title</label>
+                                <InputText id="title" class="form-control" @bind-Value="TaskItem.Title" />
+                                <ValidationMessage For="@(() => TaskItem.Title)" />
+                            </div>
+                            <div class="mb-3">
+                                <label for="description" class="form-label">Description</label>
+                                <InputTextArea id="description" class="form-control" @bind-Value="TaskItem.Description" />
+                                <ValidationMessage For="@(() => TaskItem.Description)" />
+                            </div>
+                        </EditForm>
+                    </div>
+                    <div class="modal-footer">
+                        <button type="submit" class="btn btn-primary" @onclick="SaveTaskItem">Save</button>
+                        <button type="button" class="btn btn-secondary" @onclick="Cancel">Cancel</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+}

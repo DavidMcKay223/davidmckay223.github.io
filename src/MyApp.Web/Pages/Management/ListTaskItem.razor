@@ -1,0 +1,65 @@
+﻿@using MyApp.Application.DTOs.Management
+@using MyApp.Domain.Enums.Management
+
+<div class="container">
+    <h1 class="my-4 text-center">Task Items</h1>
+</div>
+
+@if (isLoading)
+{
+    <p><em>Loading...</em></p>
+}
+else
+{
+    <FormTableTaskItem TaskItems="TaskItems" OnEdit="ShowEditModal" OnDelete="DeleteTaskItem" />
+
+    <button class="btn btn-primary" @onclick="ShowAddModal">New Task</button>
+}
+
+<EditModalTaskItem @ref="editModal" OnTaskItemSaved="SaveTaskItem" />
+
+@code {
+    private List<TaskItemDto> TaskItems = [];
+    private bool isLoading = true;
+    private EditModalTaskItem? editModal;
+
+    protected override async Task OnInitializedAsync()
+    {
+        await LoadTaskItems();
+    }
+
+    private async Task LoadTaskItems()
+    {
+        isLoading = true;
+
+        TaskItems = [];
+
+        isLoading = false;
+    }
+
+    private void ShowAddModal()
+    {
+        editModal!.Show(new TaskItemDto() { Title = "", Description = "" });
+    }
+
+    private async void ShowEditModal(TaskItemDto TaskItem)
+    {
+        editModal!.Show(TaskItem);
+    }
+
+    private async Task SaveTaskItem(TaskItemDto dto)
+    {
+        if (!TaskItems.Contains(dto))
+        {
+            TaskItems.Add(dto);
+        }else
+        {
+            dto.UpdatedDate = DateTime.UtcNow;
+        }
+    }
+
+    private async Task DeleteTaskItem(TaskItemDto dto)
+    {
+        TaskItems.Remove(dto);
+    }
+}
