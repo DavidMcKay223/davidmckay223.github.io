@@ -1,0 +1,119 @@
+[
+  {
+    "ID": 1,
+    "Title": "Implement User Authentication",
+    "Description": "Develop the user authentication module for the web application.",
+    "IsCompleted": false,
+    "TaskType": 0,
+    "CreatedDate": "2024-07-26T10:00:00Z",
+    "UpdatedDate": null
+  },
+  {
+    "ID": 2,
+    "Title": "Write Unit Tests for API",
+    "Description": "Create unit tests for the RESTful API endpoints.",
+    "IsCompleted": true,
+    "TaskType": 1,
+    "CreatedDate": "2024-07-25T14:30:00Z",
+    "UpdatedDate": "2024-07-25T15:00:00Z"
+  },
+  {
+    "ID": 3,
+    "Title": "Document API Endpoints",
+    "Description": "Generate API documentation using Swagger or a similar tool.",
+    "IsCompleted": false,
+    "TaskType": 2,
+    "CreatedDate": "2024-07-27T09:15:00Z",
+    "UpdatedDate": null
+  },
+  {
+    "ID": 4,
+    "Title": "Fix Bug in Login Module",
+    "Description": "Investigate and resolve the bug causing login issues.",
+    "IsCompleted": false,
+    "TaskType": 3,
+    "CreatedDate": "2024-07-24T16:00:00Z",
+    "UpdatedDate": null
+  },
+  {
+    "ID": 5,
+    "Title": "Respond to Customer Support Tickets",
+    "Description": "Address and resolve customer inquiries and issues.",
+    "IsCompleted": true,
+    "TaskType": 4,
+    "CreatedDate": "2024-07-26T07:00:00Z",
+    "UpdatedDate": "2024-07-26T07:30:00Z"
+  },
+  {
+    "ID": 6,
+    "Title": "Implement Search Functionality",
+    "Description": "Develop the search feature for the product catalog.",
+    "IsCompleted": false,
+    "TaskType": 0,
+    "CreatedDate": "2024-07-27T18:00:00Z",
+    "UpdatedDate": null
+  },
+  {
+    "ID": 7,
+    "Title": "Perform Performance Testing",
+    "Description": "Conduct performance tests to identify bottlenecks.",
+    "IsCompleted": false,
+    "TaskType": 1,
+    "CreatedDate": "2024-07-28T11:00:00Z",
+    "UpdatedDate": null
+  },
+  {
+    "ID": 8,
+    "Title": "Update User Manual",
+    "Description": "Revise the user manual to reflect the latest changes.",
+    "IsCompleted": false,
+    "TaskType": 2,
+    "CreatedDate": "2024-07-27T15:30:00Z",
+    "UpdatedDate": null
+  },
+  {
+    "ID": 9,
+    "Title": "Optimize Database Queries",
+    "Description": "Improve the efficiency of database queries.",
+    "IsCompleted": false,
+    "TaskType": 3,
+    "CreatedDate": "2024-07-25T09:00:00Z",
+    "UpdatedDate": null
+  },
+  {
+    "ID": 10,
+    "Title": "Provide Technical Support to Clients",
+    "Description": "Assist clients with technical issues and questions.",
+    "IsCompleted": false,
+    "TaskType": 4,
+    "CreatedDate": "2024-07-26T17:45:00Z",
+    "UpdatedDate": null
+  },
+  {
+    "ID": 11,
+    "Title": "Develop New Feature for Mobile App",
+    "Description": "Implement the new 'Notifications' feature in the mobile app.",
+    "IsCompleted": false,
+    "TaskType": 0,
+    "CreatedDate": "2024-07-28T14:00:00Z",
+    "UpdatedDate": null
+  },
+  {
+    "ID": 12,
+    "Title": "Conduct User Acceptance Testing (UAT)",
+    "Description": "Perform UAT with end-users to validate the new features.",
+    "IsCompleted": false,
+    "TaskType": 1,
+    "CreatedDate": "2024-07-27T10:30:00Z",
+    "UpdatedDate": null
+  },
+  {
+    "ID": 13,
+    "Title": "Create Release Notes",
+    "Description": "Prepare the release notes for the upcoming software release.",
+    "IsCompleted": true,
+    "TaskType": 2,
+    "CreatedDate": "2024-07-26T08:00:00Z",
+    "UpdatedDate": "2024-07-26T09:00:00Z"
+  }
+]
