@@ -36,6 +36,38 @@ else
 
         Recipes = await Http.GetFromJsonAsync<List<RecipeDto>>("data/recipe_list.json");
 
+        var recipesGroupedByMealSuggestion = Recipes!
+            .SelectMany(recipe => recipe.MealSuggestions
+                .Select(ms => new { ms.MealSuggestionId, Recipe = recipe }))
+            .GroupBy(x => x.MealSuggestionId)
+            .ToDictionary(g => g.Key, g => g.Select(x => x.Recipe)
+            .ToList());
+        
+        foreach (var recipe in Recipes!)
+        {
+            foreach (var recipeMealSuggestion in recipe.MealSuggestions)
+            {
+                if (recipesGroupedByMealSuggestion.TryGetValue(recipeMealSuggestion.MealSuggestionId, out var relatedRecipes))
+                {
+                    // Add related recipes to the MealSuggestion's RecipeSuggestions list
+                    recipeMealSuggestion.MealSuggestion = new MealSuggestionDto
+                        {
+                            Name = recipeMealSuggestion.MealSuggestion!.Name,
+                            Description = recipeMealSuggestion.MealSuggestion!.Description,
+                            MealSuggestionId = recipeMealSuggestion.MealSuggestionId,
+                            RecipeSuggestions = relatedRecipes
+                                .Where(r => r.RecipeId != recipe.RecipeId) // Exclude the current recipe
+                                .Select(r => new RecipeMealSuggestionDto
+                                {
+                                    RecipeId = r.RecipeId,
+                                    Recipe = r
+                                })
+                                .ToList()
+                        };
+                }
+            }
+        }
+
         isLoading = false;
         StateHasChanged();
     }

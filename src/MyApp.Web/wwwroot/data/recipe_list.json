@@ -65,7 +65,16 @@
             "FoodCategoryId": 4,
             "Name": "Grains & Cereals",
             "Description": "Wheat, rice, oats, barley, and derived products"
-          }
+          },
+          "PriceHistories": [
+            {
+              "PriceHistoryId": 101,
+              "FoodItemId": 101,
+              "Price": 0.75,
+              "StartDate": "2023-01-01T00:00:00",
+              "EndDate": "2024-01-01T00:00:00"
+            }
+          ]
         }
       },
       {
@@ -88,7 +97,16 @@
             "FoodCategoryId": 5,
             "Name": "Proteins",
             "Description": "Animal and plant-based protein sources"
-          }
+          },
+          "PriceHistories": [
+            {
+              "PriceHistoryId": 123,
+              "FoodItemId": 123,
+              "Price": 5.00,
+              "StartDate": "2023-01-01T00:00:00",
+              "EndDate": "2024-01-01T00:00:00"
+            }
+          ]
         }
       },
       {
@@ -111,7 +129,16 @@
             "FoodCategoryId": 5,
             "Name": "Proteins",
             "Description": "Animal and plant-based protein sources"
-          }
+          },
+          "PriceHistories": [
+            {
+              "PriceHistoryId": 117,
+              "FoodItemId": 117,
+              "Price": 5.00,
+              "StartDate": "2023-01-01T00:00:00",
+              "EndDate": "2024-01-01T00:00:00"
+            }
+          ]
         }
       },
       {
@@ -134,7 +161,16 @@
             "FoodCategoryId": 3,
             "Name": "Dairy & Alternatives",
             "Description": "Animal dairy products and plant-based alternatives"
-          }
+          },
+          "PriceHistories": [
+            {
+              "PriceHistoryId": 78,
+              "FoodItemId": 78,
+              "Price": 3.00,
+              "StartDate": "2023-01-01T00:00:00",
+              "EndDate": "2024-01-01T00:00:00"
+            }
+          ]
         }
       }
     ],
@@ -219,7 +255,16 @@
             "FoodCategoryId": 5,
             "Name": "Proteins",
             "Description": "Animal and plant-based protein sources"
-          }
+          },
+          "PriceHistories": [
+            {
+              "PriceHistoryId": 115,
+              "FoodItemId": 115,
+              "Price": 5.00,
+              "StartDate": "2023-01-01T00:00:00",
+              "EndDate": "2024-01-01T00:00:00"
+            }
+          ]
         }
       },
       {
@@ -242,7 +287,16 @@
             "FoodCategoryId": 1,
             "Name": "Vegetables",
             "Description": "All forms of vegetables including leafy greens, roots, and cruciferous"
-          }
+          },
+          "PriceHistories": [
+            {
+              "PriceHistoryId": 9,
+              "FoodItemId": 9,
+              "Price": 1.00,
+              "StartDate": "2023-01-01T00:00:00",
+              "EndDate": "2024-01-01T00:00:00"
+            }
+          ]
         }
       },
       {
@@ -265,7 +319,16 @@
             "FoodCategoryId": 1,
             "Name": "Vegetables",
             "Description": "All forms of vegetables including leafy greens, roots, and cruciferous"
-          }
+          },
+          "PriceHistories": [
+            {
+              "PriceHistoryId": 13,
+              "FoodItemId": 13,
+              "Price": 1.00,
+              "StartDate": "2023-01-01T00:00:00",
+              "EndDate": "2024-01-01T00:00:00"
+            }
+          ]
         }
       },
       {
@@ -288,7 +351,16 @@
             "FoodCategoryId": 8,
             "Name": "Condiments & Sauces",
             "Description": "Spreads, dressings, and flavor enhancers"
-          }
+          },
+          "PriceHistories": [
+            {
+              "PriceHistoryId": 177,
+              "FoodItemId": 177,
+              "Price": 1.25,
+              "StartDate": "2023-01-01T00:00:00",
+              "EndDate": "2024-01-01T00:00:00"
+            }
+          ]
         }
       }
     ],
@@ -385,7 +457,16 @@
             "FoodCategoryId": 4,
             "Name": "Grains & Cereals",
             "Description": "Wheat, rice, oats, barley, and derived products"
-          }
+          },
+          "PriceHistories": [
+            {
+              "PriceHistoryId": 98,
+              "FoodItemId": 98,
+              "Price": 0.75,
+              "StartDate": "2023-01-01T00:00:00",
+              "EndDate": "2024-01-01T00:00:00"
+            }
+          ]
         }
       },
       {
@@ -408,7 +489,16 @@
             "FoodCategoryId": 9,
             "Name": "Snacks & Sweets",
             "Description": "Processed snacks, candies, and desserts"
-          }
+          },
+          "PriceHistories": [
+            {
+              "PriceHistoryId": 198,
+              "FoodItemId": 198,
+              "Price": 1.00,
+              "StartDate": "2023-01-01T00:00:00",
+              "EndDate": "2024-01-01T00:00:00"
+            }
+          ]
         }
       },
       {
@@ -431,7 +521,16 @@
             "FoodCategoryId": 9,
             "Name": "Snacks & Sweets",
             "Description": "Processed snacks, candies, and desserts"
-          }
+          },
+          "PriceHistories": [
+            {
+              "PriceHistoryId": 181,
+              "FoodItemId": 181,
+              "Price": 1.25,
+              "StartDate": "2023-01-01T00:00:00",
+              "EndDate": "2024-01-01T00:00:00"
+            }
+          ]
         }
       },
       {
@@ -454,7 +553,16 @@
             "FoodCategoryId": 9,
             "Name": "Snacks & Sweets",
             "Description": "Processed snacks, candies, and desserts"
-          }
+          },
+          "PriceHistories": [
+            {
+              "PriceHistoryId": 187,
+              "FoodItemId": 187,
+              "Price": 1.25,
+              "StartDate": "2023-01-01T00:00:00",
+              "EndDate": "2024-01-01T00:00:00"
+            }
+          ]
         }
       }
     ],
@@ -533,7 +641,16 @@
             "FoodCategoryId": 2,
             "Name": "Fruits",
             "Description": "Fresh, dried, and preserved fruits"
-          }
+          },
+          "PriceHistories": [
+            {
+              "PriceHistoryId": 54,
+              "FoodItemId": 54,
+              "Price": 1.50,
+              "StartDate": "2023-01-01T00:00:00",
+              "EndDate": "2024-01-01T00:00:00"
+            }
+          ]
         }
       },
       {
@@ -556,7 +673,16 @@
             "FoodCategoryId": 2,
             "Name": "Fruits",
             "Description": "Fresh, dried, and preserved fruits"
-          }
+          },
+          "PriceHistories": [
+            {
+              "PriceHistoryId": 63,
+              "FoodItemId": 63,
+              "Price": 1.50,
+              "StartDate": "2023-01-01T00:00:00",
+              "EndDate": "2024-01-01T00:00:00"
+            }
+          ]
         }
       },
       {
@@ -579,7 +705,16 @@
             "FoodCategoryId": 1,
             "Name": "Vegetables",
             "Description": "All forms of vegetables including leafy greens, roots, and cruciferous"
-          }
+          },
+          "PriceHistories": [
+            {
+              "PriceHistoryId": 34,
+              "FoodItemId": 34,
+              "Price": 1.00,
+              "StartDate": "2023-01-01T00:00:00",
+              "EndDate": "2024-01-01T00:00:00"
+            }
+          ]
         }
       }
     ],
@@ -676,7 +811,16 @@
             "FoodCategoryId": 18,
             "Name": "Canned/Preserved",
             "Description": "Long-shelf-life packaged foods"
-          }
+          },
+          "PriceHistories": [
+            {
+              "PriceHistoryId": 333,
+              "FoodItemId": 333,
+              "Price": 6.00,
+              "StartDate": "2023-01-01T00:00:00",
+              "EndDate": "2024-01-01T00:00:00"
+            }
+          ]
         }
       },
       {
@@ -699,7 +843,16 @@
             "FoodCategoryId": 12,
             "Name": "Prepared Foods",
             "Description": "Ready-to-eat meals and processed food items"
-          }
+          },
+          "PriceHistories": [
+            {
+              "PriceHistoryId": 234,
+              "FoodItemId": 234,
+              "Price": 7.00,
+              "StartDate": "2023-01-01T00:00:00",
+              "EndDate": "2024-01-01T00:00:00"
+            }
+          ]
         }
       },
       {
@@ -722,7 +875,16 @@
             "FoodCategoryId": 3,
             "Name": "Dairy & Alternatives",
             "Description": "Animal dairy products and plant-based alternatives"
-          }
+          },
+          "PriceHistories": [
+            {
+              "PriceHistoryId": 79,
+              "FoodItemId": 79,
+              "Price": 3.00,
+              "StartDate": "2023-01-01T00:00:00",
+              "EndDate": "2024-01-01T00:00:00"
+            }
+          ]
         }
       }
     ],
@@ -801,7 +963,16 @@
             "FoodCategoryId": 5,
             "Name": "Proteins",
             "Description": "Animal and plant-based protein sources"
-          }
+          },
+          "PriceHistories": [
+            {
+              "PriceHistoryId": 115,
+              "FoodItemId": 115,
+              "Price": 5.00,
+              "StartDate": "2023-01-01T00:00:00",
+              "EndDate": "2024-01-01T00:00:00"
+            }
+          ]
         }
       },
       {
@@ -824,7 +995,16 @@
             "FoodCategoryId": 3,
             "Name": "Dairy & Alternatives",
             "Description": "Animal dairy products and plant-based alternatives"
-          }
+          },
+          "PriceHistories": [
+            {
+              "PriceHistoryId": 76,
+              "FoodItemId": 76,
+              "Price": 3.00,
+              "StartDate": "2023-01-01T00:00:00",
+              "EndDate": "2024-01-01T00:00:00"
+            }
+          ]
         }
       },
       {
@@ -847,7 +1027,16 @@
             "FoodCategoryId": 4,
             "Name": "Grains & Cereals",
             "Description": "Wheat, rice, oats, barley, and derived products"
-          }
+          },
+          "PriceHistories": [
+            {
+              "PriceHistoryId": 112,
+              "FoodItemId": 112,
+              "Price": 5.00,
+              "StartDate": "2023-01-01T00:00:00",
+              "EndDate": "2024-01-01T00:00:00"
+            }
+          ]
         }
       }
     ],
@@ -932,7 +1121,16 @@
             "FoodCategoryId": 2,
             "Name": "Fruits",
             "Description": "Fresh, dried, and preserved fruits"
-          }
+          },
+          "PriceHistories": [
+            {
+              "PriceHistoryId": 55,
+              "FoodItemId": 55,
+              "Price": 1.50,
+              "StartDate": "2023-01-01T00:00:00",
+              "EndDate": "2024-01-01T00:00:00"
+            }
+          ]
         }
       },
       {
@@ -955,7 +1153,16 @@
             "FoodCategoryId": 5,
             "Name": "Proteins",
             "Description": "Animal and plant-based protein sources"
-          }
+          },
+          "PriceHistories": [
+            {
+              "PriceHistoryId": 124,
+              "FoodItemId": 124,
+              "Price": 5.00,
+              "StartDate": "2023-01-01T00:00:00",
+              "EndDate": "2024-01-01T00:00:00"
+            }
+          ]
         }
       },
       {
@@ -978,7 +1185,16 @@
             "FoodCategoryId": 4,
             "Name": "Grains & Cereals",
             "Description": "Wheat, rice, oats, barley, and derived products"
-          }
+          },
+          "PriceHistories": [
+            {
+              "PriceHistoryId": 111,
+              "FoodItemId": 111,
+              "Price": 5.00,
+              "StartDate": "2023-01-01T00:00:00",
+              "EndDate": "2024-01-01T00:00:00"
+            }
+          ]
         }
       }
     ],
@@ -1051,7 +1267,16 @@
             "FoodCategoryId": 4,
             "Name": "Grains & Cereals",
             "Description": "Wheat, rice, oats, barley, and derived products"
-          }
+          },
+          "PriceHistories": [
+            {
+              "PriceHistoryId": 98,
+              "FoodItemId": 98,
+              "Price": 0.75,
+              "StartDate": "2023-01-01T00:00:00",
+              "EndDate": "2024-01-01T00:00:00"
+            }
+          ]
         }
       },
       {
@@ -1074,7 +1299,16 @@
             "FoodCategoryId": 9,
             "Name": "Snacks & Sweets",
             "Description": "Processed snacks, candies, and desserts"
-          }
+          },
+          "PriceHistories": [
+            {
+              "PriceHistoryId": 198,
+              "FoodItemId": 198,
+              "Price": 1.00,
+              "StartDate": "2023-01-01T00:00:00",
+              "EndDate": "2024-01-01T00:00:00"
+            }
+          ]
         }
       },
       {
@@ -1097,7 +1331,16 @@
             "FoodCategoryId": 2,
             "Name": "Fruits",
             "Description": "Fresh, dried, and preserved fruits"
-          }
+          },
+          "PriceHistories": [
+            {
+              "PriceHistoryId": 73,
+              "FoodItemId": 73,
+              "Price": 3.00,
+              "StartDate": "2023-01-01T00:00:00",
+              "EndDate": "2024-01-01T00:00:00"
+            }
+          ]
         }
       },
       {
@@ -1120,7 +1363,16 @@
             "FoodCategoryId": 2,
             "Name": "Fruits",
             "Description": "Fresh, dried, and preserved fruits"
-          }
+          },
+          "PriceHistories": [
+            {
+              "PriceHistoryId": 57,
+              "FoodItemId": 57,
+              "Price": 1.50,
+              "StartDate": "2023-01-01T00:00:00",
+              "EndDate": "2024-01-01T00:00:00"
+            }
+          ]
         }
       },
       {
@@ -1143,7 +1395,16 @@
             "FoodCategoryId": 2,
             "Name": "Fruits",
             "Description": "Fresh, dried, and preserved fruits"
-          }
+          },
+          "PriceHistories": [
+            {
+              "PriceHistoryId": 61,
+              "FoodItemId": 61,
+              "Price": 1.50,
+              "StartDate": "2023-01-01T00:00:00",
+              "EndDate": "2024-01-01T00:00:00"
+            }
+          ]
         }
       }
     ],
@@ -1168,171 +1429,6 @@
           "Name": "Dessert",
           "MealType": 5,
           "Description": "Recipes suitable for dessert.",
-          "EffectiveDate": "2025-02-06T00:00:00",
-          "ExpirationDate": "2025-12-31T00:00:00"
-        }
-      }
-    ]
-  },
-  {
-    "RecipeId": 19,
-    "Title": "Popcorn",
-    "Description": "A classic movie snack.",
-    "PrepTimeMinutes": 5,
-    "CookTimeMinutes": 5,
-    "Servings": 4,
-    "Steps": [
-      {
-        "StepId": 57,
-        "RecipeId": 19,
-        "StepNumber": 1,
-        "Instruction": "Add oil and popcorn kernels to a pot."
-      }
-    ],
-    "Ingredients": [
-      {
-        "IngredientId": 42,
-        "RecipeId": 19,
-        "FoodItemId": 103,
-        "Quantity": 50.00,
-        "Unit": 0,
-        "FoodItem": {
-          "FoodItemId": 103,
-          "Name": "Popcorn Kernels",
-          "Description": "Unpopped kernels of corn.",
-          "FoodCategoryId": 4,
-          "CaloriesPerUnit": 375.00,
-          "ProteinPerUnit": 13.00,
-          "CarbohydratesPerUnit": 78.00,
-          "FatPerUnit": 5.00,
-          "Unit": 0,
-          "FoodCategory": {
-            "FoodCategoryId": 4,
-            "Name": "Grains & Cereals",
-            "Description": "Wheat, rice, oats, barley, and derived products"
-          }
-        }
-      }
-    ],
-    "MealSuggestions": [
-      {
-        "RecipeId": 19,
-        "MealSuggestionId": 14,
-        "MealSuggestion": {
-          "MealSuggestionId": 14,
-          "Name": "Snack",
-          "MealType": 4,
-          "Description": "Recipes suitable for snacks.",
-          "EffectiveDate": "2025-02-06T00:00:00",
-          "ExpirationDate": "2025-12-31T00:00:00"
-        }
-      }
-    ]
-  },
-  {
-    "RecipeId": 20,
-    "Title": "Cheese and Crackers",
-    "Description": "Simple and satisfying snack.",
-    "PrepTimeMinutes": 5,
-    "CookTimeMinutes": 0,
-    "Servings": 2,
-    "Steps": [
-      {
-        "StepId": 58,
-        "RecipeId": 20,
-        "StepNumber": 1,
-        "Instruction": "Slice or cube the cheese."
-      }
-    ],
-    "Ingredients": [
-      {
-        "IngredientId": 43,
-        "RecipeId": 20,
-        "FoodItemId": 76,
-        "Quantity": 50.00,
-        "Unit": 0,
-        "FoodItem": {
-          "FoodItemId": 76,
-          "Name": "Cheese (Cheddar)",
-          "Description": "Hard cheese",
-          "FoodCategoryId": 3,
-          "CaloriesPerUnit": 403.00,
-          "ProteinPerUnit": 25.00,
-          "CarbohydratesPerUnit": 2.00,
-          "FatPerUnit": 33.00,
-          "Unit": 0,
-          "FoodCategory": {
-            "FoodCategoryId": 3,
-            "Name": "Dairy & Alternatives",
-            "Description": "Animal dairy products and plant-based alternatives"
-          }
-        }
-      }
-    ],
-    "MealSuggestions": [
-      {
-        "RecipeId": 20,
-        "MealSuggestionId": 14,
-        "MealSuggestion": {
-          "MealSuggestionId": 14,
-          "Name": "Snack",
-          "MealType": 4,
-          "Description": "Recipes suitable for snacks.",
-          "EffectiveDate": "2025-02-06T00:00:00",
-          "ExpirationDate": "2025-12-31T00:00:00"
-        }
-      }
-    ]
-  },
-  {
-    "RecipeId": 21,
-    "Title": "Hard-boiled Eggs",
-    "Description": "A protein-packed snack.",
-    "PrepTimeMinutes": 5,
-    "CookTimeMinutes": 15,
-    "Servings": 2,
-    "Steps": [
-      {
-        "StepId": 59,
-        "RecipeId": 21,
-        "StepNumber": 1,
-        "Instruction": "Place eggs in a pot and cover with cold water."
-      }
-    ],
-    "Ingredients": [
-      {
-        "IngredientId": 44,
-        "RecipeId": 21,
-        "FoodItemId": 117,
-        "Quantity": 2.00,
-        "Unit": 7,
-        "FoodItem": {
-          "FoodItemId": 117,
-          "Name": "Eggs",
-          "Description": "Poultry product",
-          "FoodCategoryId": 5,
-          "CaloriesPerUnit": 78.00,
-          "ProteinPerUnit": 6.00,
-          "CarbohydratesPerUnit": 1.00,
-          "FatPerUnit": 5.00,
-          "Unit": 0,
-          "FoodCategory": {
-            "FoodCategoryId": 5,
-            "Name": "Proteins",
-            "Description": "Animal and plant-based protein sources"
-          }
-        }
-      }
-    ],
-    "MealSuggestions": [
-      {
-        "RecipeId": 21,
-        "MealSuggestionId": 14,
-        "MealSuggestion": {
-          "MealSuggestionId": 14,
-          "Name": "Snack",
-          "MealType": 4,
-          "Description": "Recipes suitable for snacks.",
           "EffectiveDate": "2025-02-06T00:00:00",
           "ExpirationDate": "2025-12-31T00:00:00"
         }
@@ -1399,7 +1495,16 @@
             "FoodCategoryId": 4,
             "Name": "Grains & Cereals",
             "Description": "Wheat, rice, oats, barley, and derived products"
-          }
+          },
+          "PriceHistories": [
+            {
+              "PriceHistoryId": 101,
+              "FoodItemId": 101,
+              "Price": 0.75,
+              "StartDate": "2023-01-01T00:00:00",
+              "EndDate": "2024-01-01T00:00:00"
+            }
+          ]
         }
       },
       {
@@ -1422,7 +1527,16 @@
             "FoodCategoryId": 1,
             "Name": "Vegetables",
             "Description": "All forms of vegetables including leafy greens, roots, and cruciferous"
-          }
+          },
+          "PriceHistories": [
+            {
+              "PriceHistoryId": 51,
+              "FoodItemId": 51,
+              "Price": 1.50,
+              "StartDate": "2023-01-01T00:00:00",
+              "EndDate": "2024-01-01T00:00:00"
+            }
+          ]
         }
       },
       {
@@ -1445,7 +1559,16 @@
             "FoodCategoryId": 1,
             "Name": "Vegetables",
             "Description": "All forms of vegetables including leafy greens, roots, and cruciferous"
-          }
+          },
+          "PriceHistories": [
+            {
+              "PriceHistoryId": 6,
+              "FoodItemId": 6,
+              "Price": 1.00,
+              "StartDate": "2023-01-01T00:00:00",
+              "EndDate": "2024-01-01T00:00:00"
+            }
+          ]
         }
       },
       {
@@ -1468,7 +1591,16 @@
             "FoodCategoryId": 1,
             "Name": "Vegetables",
             "Description": "All forms of vegetables including leafy greens, roots, and cruciferous"
-          }
+          },
+          "PriceHistories": [
+            {
+              "PriceHistoryId": 13,
+              "FoodItemId": 13,
+              "Price": 1.00,
+              "StartDate": "2023-01-01T00:00:00",
+              "EndDate": "2024-01-01T00:00:00"
+            }
+          ]
         }
       },
       {
@@ -1491,7 +1623,16 @@
             "FoodCategoryId": 11,
             "Name": "Fats & Oils",
             "Description": "Cooking oils, butter, and lipid-based products"
-          }
+          },
+          "PriceHistories": [
+            {
+              "PriceHistoryId": 225,
+              "FoodItemId": 225,
+              "Price": 7.00,
+              "StartDate": "2023-01-01T00:00:00",
+              "EndDate": "2024-01-01T00:00:00"
+            }
+          ]
         }
       },
       {
@@ -1514,7 +1655,16 @@
             "FoodCategoryId": 13,
             "Name": "Herbs & Spices",
             "Description": "Culinary flavorings and seasoning agents"
-          }
+          },
+          "PriceHistories": [
+            {
+              "PriceHistoryId": 254,
+              "FoodItemId": 254,
+              "Price": 3.00,
+              "StartDate": "2023-01-01T00:00:00",
+              "EndDate": "2024-01-01T00:00:00"
+            }
+          ]
         }
       },
       {
@@ -1537,23 +1687,20 @@
             "FoodCategoryId": 3,
             "Name": "Dairy & Alternatives",
             "Description": "Animal dairy products and plant-based alternatives"
-          }
+          },
+          "PriceHistories": [
+            {
+              "PriceHistoryId": 78,
+              "FoodItemId": 78,
+              "Price": 3.00,
+              "StartDate": "2023-01-01T00:00:00",
+              "EndDate": "2024-01-01T00:00:00"
+            }
+          ]
         }
       }
     ],
     "MealSuggestions": [
-      {
-        "RecipeId": 22,
-        "MealSuggestionId": 5,
-        "MealSuggestion": {
-          "MealSuggestionId": 5,
-          "Name": "Vegetarian/Vegan",
-          "MealType": 0,
-          "Description": "Plant-based recipes.",
-          "EffectiveDate": "2025-02-06T00:00:00",
-          "ExpirationDate": "2025-12-31T00:00:00"
-        }
-      },
       {
         "RecipeId": 22,
         "MealSuggestionId": 13,
@@ -1562,6 +1709,18 @@
           "Name": "Dinner",
           "MealType": 3,
           "Description": "Recipes suitable for dinner.",
+          "EffectiveDate": "2025-02-06T00:00:00",
+          "ExpirationDate": "2025-12-31T00:00:00"
+        }
+      },
+      {
+        "RecipeId": 22,
+        "MealSuggestionId": 5,
+        "MealSuggestion": {
+          "MealSuggestionId": 5,
+          "Name": "Vegetarian/Vegan",
+          "MealType": 0,
+          "Description": "Plant-based recipes.",
           "EffectiveDate": "2025-02-06T00:00:00",
           "ExpirationDate": "2025-12-31T00:00:00"
         }
@@ -1628,7 +1787,16 @@
             "FoodCategoryId": 1,
             "Name": "Vegetables",
             "Description": "All forms of vegetables including leafy greens, roots, and cruciferous"
-          }
+          },
+          "PriceHistories": [
+            {
+              "PriceHistoryId": 34,
+              "FoodItemId": 34,
+              "Price": 1.00,
+              "StartDate": "2023-01-01T00:00:00",
+              "EndDate": "2024-01-01T00:00:00"
+            }
+          ]
         }
       },
       {
@@ -1651,7 +1819,16 @@
             "FoodCategoryId": 1,
             "Name": "Vegetables",
             "Description": "All forms of vegetables including leafy greens, roots, and cruciferous"
-          }
+          },
+          "PriceHistories": [
+            {
+              "PriceHistoryId": 13,
+              "FoodItemId": 13,
+              "Price": 1.00,
+              "StartDate": "2023-01-01T00:00:00",
+              "EndDate": "2024-01-01T00:00:00"
+            }
+          ]
         }
       },
       {
@@ -1674,7 +1851,16 @@
             "FoodCategoryId": 13,
             "Name": "Herbs & Spices",
             "Description": "Culinary flavorings and seasoning agents"
-          }
+          },
+          "PriceHistories": [
+            {
+              "PriceHistoryId": 254,
+              "FoodItemId": 254,
+              "Price": 3.00,
+              "StartDate": "2023-01-01T00:00:00",
+              "EndDate": "2024-01-01T00:00:00"
+            }
+          ]
         }
       },
       {
@@ -1697,7 +1883,16 @@
             "FoodCategoryId": 11,
             "Name": "Fats & Oils",
             "Description": "Cooking oils, butter, and lipid-based products"
-          }
+          },
+          "PriceHistories": [
+            {
+              "PriceHistoryId": 230,
+              "FoodItemId": 230,
+              "Price": 7.00,
+              "StartDate": "2023-01-01T00:00:00",
+              "EndDate": "2024-01-01T00:00:00"
+            }
+          ]
         }
       },
       {
@@ -1720,7 +1915,16 @@
             "FoodCategoryId": 1,
             "Name": "Vegetables",
             "Description": "All forms of vegetables including leafy greens, roots, and cruciferous"
-          }
+          },
+          "PriceHistories": [
+            {
+              "PriceHistoryId": 43,
+              "FoodItemId": 43,
+              "Price": 1.00,
+              "StartDate": "2023-01-01T00:00:00",
+              "EndDate": "2024-01-01T00:00:00"
+            }
+          ]
         }
       }
     ],
@@ -1799,7 +2003,16 @@
             "FoodCategoryId": 1,
             "Name": "Vegetables",
             "Description": "All forms of vegetables including leafy greens, roots, and cruciferous"
-          }
+          },
+          "PriceHistories": [
+            {
+              "PriceHistoryId": 13,
+              "FoodItemId": 13,
+              "Price": 1.00,
+              "StartDate": "2023-01-01T00:00:00",
+              "EndDate": "2024-01-01T00:00:00"
+            }
+          ]
         }
       },
       {
@@ -1822,7 +2035,16 @@
             "FoodCategoryId": 1,
             "Name": "Vegetables",
             "Description": "All forms of vegetables including leafy greens, roots, and cruciferous"
-          }
+          },
+          "PriceHistories": [
+            {
+              "PriceHistoryId": 16,
+              "FoodItemId": 16,
+              "Price": 1.00,
+              "StartDate": "2023-01-01T00:00:00",
+              "EndDate": "2024-01-01T00:00:00"
+            }
+          ]
         }
       },
       {
@@ -1845,7 +2067,16 @@
             "FoodCategoryId": 1,
             "Name": "Vegetables",
             "Description": "All forms of vegetables including leafy greens, roots, and cruciferous"
-          }
+          },
+          "PriceHistories": [
+            {
+              "PriceHistoryId": 19,
+              "FoodItemId": 19,
+              "Price": 1.00,
+              "StartDate": "2023-01-01T00:00:00",
+              "EndDate": "2024-01-01T00:00:00"
+            }
+          ]
         }
       },
       {
@@ -1868,7 +2099,16 @@
             "FoodCategoryId": 19,
             "Name": "International",
             "Description": "Ethnic-specific food ingredients"
-          }
+          },
+          "PriceHistories": [
+            {
+              "PriceHistoryId": 342,
+              "FoodItemId": 342,
+              "Price": 6.00,
+              "StartDate": "2023-01-01T00:00:00",
+              "EndDate": "2024-01-01T00:00:00"
+            }
+          ]
         }
       }
     ],
@@ -1935,7 +2175,16 @@
             "FoodCategoryId": 4,
             "Name": "Grains & Cereals",
             "Description": "Wheat, rice, oats, barley, and derived products"
-          }
+          },
+          "PriceHistories": [
+            {
+              "PriceHistoryId": 104,
+              "FoodItemId": 104,
+              "Price": 0.75,
+              "StartDate": "2023-01-01T00:00:00",
+              "EndDate": "2024-01-01T00:00:00"
+            }
+          ]
         }
       },
       {
@@ -1958,7 +2207,16 @@
             "FoodCategoryId": 1,
             "Name": "Vegetables",
             "Description": "All forms of vegetables including leafy greens, roots, and cruciferous"
-          }
+          },
+          "PriceHistories": [
+            {
+              "PriceHistoryId": 19,
+              "FoodItemId": 19,
+              "Price": 1.00,
+              "StartDate": "2023-01-01T00:00:00",
+              "EndDate": "2024-01-01T00:00:00"
+            }
+          ]
         }
       },
       {
@@ -1981,7 +2239,16 @@
             "FoodCategoryId": 1,
             "Name": "Vegetables",
             "Description": "All forms of vegetables including leafy greens, roots, and cruciferous"
-          }
+          },
+          "PriceHistories": [
+            {
+              "PriceHistoryId": 6,
+              "FoodItemId": 6,
+              "Price": 1.00,
+              "StartDate": "2023-01-01T00:00:00",
+              "EndDate": "2024-01-01T00:00:00"
+            }
+          ]
         }
       },
       {
@@ -2004,7 +2271,16 @@
             "FoodCategoryId": 11,
             "Name": "Fats & Oils",
             "Description": "Cooking oils, butter, and lipid-based products"
-          }
+          },
+          "PriceHistories": [
+            {
+              "PriceHistoryId": 225,
+              "FoodItemId": 225,
+              "Price": 7.00,
+              "StartDate": "2023-01-01T00:00:00",
+              "EndDate": "2024-01-01T00:00:00"
+            }
+          ]
         }
       }
     ],
@@ -2101,7 +2377,16 @@
             "FoodCategoryId": 5,
             "Name": "Proteins",
             "Description": "Animal and plant-based protein sources"
-          }
+          },
+          "PriceHistories": [
+            {
+              "PriceHistoryId": 115,
+              "FoodItemId": 115,
+              "Price": 5.00,
+              "StartDate": "2023-01-01T00:00:00",
+              "EndDate": "2024-01-01T00:00:00"
+            }
+          ]
         }
       },
       {
@@ -2124,7 +2409,16 @@
             "FoodCategoryId": 3,
             "Name": "Dairy & Alternatives",
             "Description": "Animal dairy products and plant-based alternatives"
-          }
+          },
+          "PriceHistories": [
+            {
+              "PriceHistoryId": 90,
+              "FoodItemId": 90,
+              "Price": 0.75,
+              "StartDate": "2023-01-01T00:00:00",
+              "EndDate": "2024-01-01T00:00:00"
+            }
+          ]
         }
       },
       {
@@ -2147,7 +2441,16 @@
             "FoodCategoryId": 1,
             "Name": "Vegetables",
             "Description": "All forms of vegetables including leafy greens, roots, and cruciferous"
-          }
+          },
+          "PriceHistories": [
+            {
+              "PriceHistoryId": 34,
+              "FoodItemId": 34,
+              "Price": 1.00,
+              "StartDate": "2023-01-01T00:00:00",
+              "EndDate": "2024-01-01T00:00:00"
+            }
+          ]
         }
       },
       {
@@ -2170,7 +2473,16 @@
             "FoodCategoryId": 13,
             "Name": "Herbs & Spices",
             "Description": "Culinary flavorings and seasoning agents"
-          }
+          },
+          "PriceHistories": [
+            {
+              "PriceHistoryId": 254,
+              "FoodItemId": 254,
+              "Price": 3.00,
+              "StartDate": "2023-01-01T00:00:00",
+              "EndDate": "2024-01-01T00:00:00"
+            }
+          ]
         }
       },
       {
@@ -2193,7 +2505,16 @@
             "FoodCategoryId": 13,
             "Name": "Herbs & Spices",
             "Description": "Culinary flavorings and seasoning agents"
-          }
+          },
+          "PriceHistories": [
+            {
+              "PriceHistoryId": 255,
+              "FoodItemId": 255,
+              "Price": 3.00,
+              "StartDate": "2023-01-01T00:00:00",
+              "EndDate": "2024-01-01T00:00:00"
+            }
+          ]
         }
       },
       {
@@ -2216,7 +2537,16 @@
             "FoodCategoryId": 3,
             "Name": "Dairy & Alternatives",
             "Description": "Animal dairy products and plant-based alternatives"
-          }
+          },
+          "PriceHistories": [
+            {
+              "PriceHistoryId": 79,
+              "FoodItemId": 79,
+              "Price": 3.00,
+              "StartDate": "2023-01-01T00:00:00",
+              "EndDate": "2024-01-01T00:00:00"
+            }
+          ]
         }
       }
     ],
@@ -2307,7 +2637,16 @@
             "FoodCategoryId": 4,
             "Name": "Grains & Cereals",
             "Description": "Wheat, rice, oats, barley, and derived products"
-          }
+          },
+          "PriceHistories": [
+            {
+              "PriceHistoryId": 104,
+              "FoodItemId": 104,
+              "Price": 0.75,
+              "StartDate": "2023-01-01T00:00:00",
+              "EndDate": "2024-01-01T00:00:00"
+            }
+          ]
         }
       },
       {
@@ -2330,7 +2669,16 @@
             "FoodCategoryId": 1,
             "Name": "Vegetables",
             "Description": "All forms of vegetables including leafy greens, roots, and cruciferous"
-          }
+          },
+          "PriceHistories": [
+            {
+              "PriceHistoryId": 28,
+              "FoodItemId": 28,
+              "Price": 1.00,
+              "StartDate": "2023-01-01T00:00:00",
+              "EndDate": "2024-01-01T00:00:00"
+            }
+          ]
         }
       },
       {
@@ -2353,23 +2701,20 @@
             "FoodCategoryId": 1,
             "Name": "Vegetables",
             "Description": "All forms of vegetables including leafy greens, roots, and cruciferous"
-          }
+          },
+          "PriceHistories": [
+            {
+              "PriceHistoryId": 44,
+              "FoodItemId": 44,
+              "Price": 1.00,
+              "StartDate": "2023-01-01T00:00:00",
+              "EndDate": "2024-01-01T00:00:00"
+            }
+          ]
         }
       }
     ],
     "MealSuggestions": [
-      {
-        "RecipeId": 27,
-        "MealSuggestionId": 5,
-        "MealSuggestion": {
-          "MealSuggestionId": 5,
-          "Name": "Vegetarian/Vegan",
-          "MealType": 0,
-          "Description": "Plant-based recipes.",
-          "EffectiveDate": "2025-02-06T00:00:00",
-          "ExpirationDate": "2025-12-31T00:00:00"
-        }
-      },
       {
         "RecipeId": 27,
         "MealSuggestionId": 12,
@@ -2378,6 +2723,18 @@
           "Name": "Lunch",
           "MealType": 2,
           "Description": "Recipes suitable for lunch.",
+          "EffectiveDate": "2025-02-06T00:00:00",
+          "ExpirationDate": "2025-12-31T00:00:00"
+        }
+      },
+      {
+        "RecipeId": 27,
+        "MealSuggestionId": 5,
+        "MealSuggestion": {
+          "MealSuggestionId": 5,
+          "Name": "Vegetarian/Vegan",
+          "MealType": 0,
+          "Description": "Plant-based recipes.",
           "EffectiveDate": "2025-02-06T00:00:00",
           "ExpirationDate": "2025-12-31T00:00:00"
         }
@@ -2438,7 +2795,16 @@
             "FoodCategoryId": 5,
             "Name": "Proteins",
             "Description": "Animal and plant-based protein sources"
-          }
+          },
+          "PriceHistories": [
+            {
+              "PriceHistoryId": 126,
+              "FoodItemId": 126,
+              "Price": 5.00,
+              "StartDate": "2023-01-01T00:00:00",
+              "EndDate": "2024-01-01T00:00:00"
+            }
+          ]
         }
       },
       {
@@ -2461,7 +2827,16 @@
             "FoodCategoryId": 1,
             "Name": "Vegetables",
             "Description": "All forms of vegetables including leafy greens, roots, and cruciferous"
-          }
+          },
+          "PriceHistories": [
+            {
+              "PriceHistoryId": 4,
+              "FoodItemId": 4,
+              "Price": 1.00,
+              "StartDate": "2023-01-01T00:00:00",
+              "EndDate": "2024-01-01T00:00:00"
+            }
+          ]
         }
       },
       {
@@ -2484,23 +2859,20 @@
             "FoodCategoryId": 11,
             "Name": "Fats & Oils",
             "Description": "Cooking oils, butter, and lipid-based products"
-          }
+          },
+          "PriceHistories": [
+            {
+              "PriceHistoryId": 225,
+              "FoodItemId": 225,
+              "Price": 7.00,
+              "StartDate": "2023-01-01T00:00:00",
+              "EndDate": "2024-01-01T00:00:00"
+            }
+          ]
         }
       }
     ],
     "MealSuggestions": [
-      {
-        "RecipeId": 28,
-        "MealSuggestionId": 7,
-        "MealSuggestion": {
-          "MealSuggestionId": 7,
-          "Name": "High-Protein",
-          "MealType": 0,
-          "Description": "Recipes designed to be high in protein.",
-          "EffectiveDate": "2025-02-06T00:00:00",
-          "ExpirationDate": "2025-12-31T00:00:00"
-        }
-      },
       {
         "RecipeId": 28,
         "MealSuggestionId": 13,
@@ -2509,6 +2881,18 @@
           "Name": "Dinner",
           "MealType": 3,
           "Description": "Recipes suitable for dinner.",
+          "EffectiveDate": "2025-02-06T00:00:00",
+          "ExpirationDate": "2025-12-31T00:00:00"
+        }
+      },
+      {
+        "RecipeId": 28,
+        "MealSuggestionId": 7,
+        "MealSuggestion": {
+          "MealSuggestionId": 7,
+          "Name": "High-Protein",
+          "MealType": 0,
+          "Description": "Recipes designed to be high in protein.",
           "EffectiveDate": "2025-02-06T00:00:00",
           "ExpirationDate": "2025-12-31T00:00:00"
         }
@@ -2569,7 +2953,16 @@
             "FoodCategoryId": 16,
             "Name": "Fermented Foods",
             "Description": "Kimchi, yogurt, sauerkraut, and cultured products"
-          }
+          },
+          "PriceHistories": [
+            {
+              "PriceHistoryId": 299,
+              "FoodItemId": 299,
+              "Price": 2.50,
+              "StartDate": "2023-01-01T00:00:00",
+              "EndDate": "2024-01-01T00:00:00"
+            }
+          ]
         }
       },
       {
@@ -2592,7 +2985,16 @@
             "FoodCategoryId": 5,
             "Name": "Proteins",
             "Description": "Animal and plant-based protein sources"
-          }
+          },
+          "PriceHistories": [
+            {
+              "PriceHistoryId": 128,
+              "FoodItemId": 128,
+              "Price": 9.00,
+              "StartDate": "2023-01-01T00:00:00",
+              "EndDate": "2024-01-01T00:00:00"
+            }
+          ]
         }
       }
     ],
