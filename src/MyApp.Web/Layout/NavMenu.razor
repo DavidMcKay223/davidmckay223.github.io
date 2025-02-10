@@ -10,28 +10,33 @@
 <div class="@NavMenuCssClass nav-scrollable" @onclick="ToggleNavMenu">
     <nav class="nav flex-column">
         <div class="nav-item px-3">
-            <NavLink class="nav-link" href="" Match="NavLinkMatch.All">
-                <span class="bi bi-house-door-fill-nav-menu" aria-hidden="true"></span> Home
+            <NavLink class="nav-link d-flex align-items-center" href="" Match="NavLinkMatch.All">
+                <span class="bi bi-house-door fs-6 me-2 d-inline-flex align-items-center justify-content-center"></span>
+                Home
             </NavLink>
         </div>
         <div class="nav-item px-3">
-            <NavLink class="nav-link" href="recipes">
-                <span class="bi bi-list-nested-nav-menu" aria-hidden="true"></span> Recipes
+            <NavLink class="nav-link d-flex align-items-center" href="recipes">
+                <span class="bi bi-journal-richtext fs-6 me-2 d-inline-flex align-items-center justify-content-center"></span>
+                Recipes
             </NavLink>
         </div>
         <div class="nav-item px-3">
-            <NavLink class="nav-link" href="products">
-                <span class="bi bi-list-nested-nav-menu" aria-hidden="true"></span> Products
+            <NavLink class="nav-link d-flex align-items-center" href="products">
+                <span class="bi bi-tags fs-6 me-2 d-inline-flex align-items-center justify-content-center"></span>
+                Products
             </NavLink>
         </div>
         <div class="nav-item px-3">
-            <NavLink class="nav-link" href="tasks">
-                <span class="bi bi-plus-square-fill-nav-menu" aria-hidden="true"></span> Tasks
+            <NavLink class="nav-link d-flex align-items-center" href="tasks">
+                <span class="bi bi-clipboard-check fs-6 me-2 d-inline-flex align-items-center justify-content-center"></span>
+                Tasks
             </NavLink>
         </div>
         <div class="nav-item px-3">
-            <NavLink class="nav-link" href="npi">
-                <span class="bi bi-plus-square-fill-nav-menu" aria-hidden="true"></span> NPI Registry
+            <NavLink class="nav-link d-flex align-items-center" href="npi">
+                <span class="bi bi-database fs-6 me-2 d-inline-flex align-items-center justify-content-center"></span>
+                NPI Registry
             </NavLink>
         </div>
     </nav>
@@ -39,11 +44,6 @@
 
 @code {
     private bool collapseNavMenu = true;
-
     private string? NavMenuCssClass => collapseNavMenu ? "collapse" : null;
-
-    private void ToggleNavMenu()
-    {
-        collapseNavMenu = !collapseNavMenu;
-    }
+    private void ToggleNavMenu() => collapseNavMenu = !collapseNavMenu;
 }
