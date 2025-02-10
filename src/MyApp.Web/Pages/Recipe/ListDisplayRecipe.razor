@@ -1,4 +1,6 @@
 ﻿@using MyApp.Application.DTOs.Food
+@using MyApp.Application.Interfaces.Food
+@inject IGeneratorPdf PdfGenerator
 @inject HttpClient Http
 
 <div class="container">
@@ -15,7 +17,12 @@
 }
 else
 {
-    <TableDisplayRecipe Recipes="Recipes" OnDisplay="ShowDisplayModal" />
+    @if (RecipeIdList.Count > 0)
+    {
+        <button class="btn btn-secondary mb-3" @onclick="DownloadPdf"><i class="bi bi-download"></i>Download PDF</button>
+    }
+
+    <TableDisplayRecipe Recipes="Recipes" RecipeIdList="RecipeIdList" OnDisplay="ShowDisplayModal" AddRecipeToDownload="AddRecipeFromList" RemoveRecipeFromDownload="RemoveRecipeFromList" />
 }
 
 <DisplayModalRecipe @ref="displayModal" />
@@ -24,6 +31,7 @@ else
     private List<RecipeDto>? Recipes;
     private bool isLoading = true;
     private DisplayModalRecipe? displayModal;
+    private List<RecipeDto> RecipeIdList = new();
 
     protected override async Task OnInitializedAsync()
     {
@@ -72,8 +80,23 @@ else
         StateHasChanged();
     }
 
+    private async Task DownloadPdf()
+    {
+        await PdfGenerator.RecipeListDownloadPdfAsync("recipe_document.pdf", RecipeIdList);
+    }
+
     private async void ShowDisplayModal(RecipeDto id)
     {
         displayModal!.Show(id);
+    }
+
+    private async Task AddRecipeFromList(RecipeDto id)
+    {
+        RecipeIdList.Add(id);
+    }
+
+    private async Task RemoveRecipeFromList(RecipeDto id)
+    {
+        RecipeIdList.Remove(id);
     }
 }

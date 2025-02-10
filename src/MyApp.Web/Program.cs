@@ -25,6 +25,7 @@ builder.Services.AddScoped<IStateService, StateService>();
 builder.Services.AddScoped<IProviderUseCases, ProviderUseCases>();
 builder.Services.AddScoped<IFakeStoreUseCases, FakeStoreUseCases>();
 builder.Services.AddScoped<INutritionCalculatorService, NutritionCalculatorService>();
+builder.Services.AddScoped<IGeneratorPdf, GeneratorPdf>();
 
 builder.Services.AddScoped<IFakeStoreClient, FakeStoreService>(sp => new FakeStoreService(new HttpClient { BaseAddress = new Uri("https://fakestoreapi.com/") }));
 

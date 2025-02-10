@@ -96,9 +96,17 @@ else
                                 @if (OnDisplay.HasDelegate)
                                 {
                                     <button class="btn btn-outline-primary btn-sm me-2"
-                                            @onclick="() => OnDisplay.InvokeAsync(recipe)">
+                                    @onclick="() => OnDisplay.InvokeAsync(recipe)">
                                         <i class="bi bi-view-list me-2"></i>View
                                     </button>
+                                }
+                                @if (!RecipeIdList.Contains(recipe))
+                                {
+                                    <button class="btn btn-primary btn-sm" @onclick="() => AddRecipeToDownload.InvokeAsync(recipe)"><i class="bi bi-download"></i>Add Download</button>
+                                }
+                                else
+                                {
+                                    <button class="btn btn-danger btn-sm" @onclick="() => RemoveRecipeFromDownload.InvokeAsync(recipe)"><i class="bi bi-trash"></i>Remove Download</button>
                                 }
                             </div>
                         </div>
@@ -114,5 +122,14 @@ else
     public List<RecipeDto>? Recipes { get; set; }
 
     [Parameter]
+    public List<RecipeDto> RecipeIdList{ get; set; }
+
+    [Parameter]
     public EventCallback<RecipeDto> OnDisplay { get; set; }
+
+    [Parameter]
+    public EventCallback<RecipeDto> AddRecipeToDownload { get; set; }
+
+    [Parameter]
+    public EventCallback<RecipeDto> RemoveRecipeFromDownload { get; set; }
 }
