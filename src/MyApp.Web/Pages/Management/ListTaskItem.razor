@@ -1,5 +1,6 @@
 ﻿@using MyApp.Application.DTOs.Management
 @using MyApp.Domain.Enums.Management
+@inject HttpClient Http
 
 <div class="container">
     <h1 class="my-4 text-center">Task Items</h1>
@@ -17,13 +18,13 @@ else
 {
     <FormTableTaskItem TaskItems="TaskItems" OnEdit="ShowEditModal" OnDelete="DeleteTaskItem" />
 
-    <button class="btn btn-primary" @onclick="ShowAddModal">New Task</button>
+    <button class="btn btn-primary my-3 mb-2" @onclick="ShowAddModal">New Task</button>
 }
 
 <EditModalTaskItem @ref="editModal" OnTaskItemSaved="SaveTaskItem" />
 
 @code {
-    private List<TaskItemDto> TaskItems = [];
+    private List<TaskItemDto>? TaskItems;
     private bool isLoading = true;
     private EditModalTaskItem? editModal;
 
@@ -36,7 +37,7 @@ else
     {
         isLoading = true;
 
-        TaskItems = [];
+        TaskItems = await Http.GetFromJsonAsync<List<TaskItemDto>>("data/task_list.json");
 
         isLoading = false;
     }
@@ -53,7 +54,7 @@ else
 
     private async Task SaveTaskItem(TaskItemDto dto)
     {
-        if (!TaskItems.Contains(dto))
+        if (TaskItems!.Contains(dto))
         {
             TaskItems.Add(dto);
         }else
@@ -64,6 +65,6 @@ else
 
     private async Task DeleteTaskItem(TaskItemDto dto)
     {
-        TaskItems.Remove(dto);
+        TaskItems!.Remove(dto);
     }
 }

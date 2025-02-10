@@ -1,15 +1,7 @@
 ﻿using MyApp.Domain.Abstractions.ECommerce;
 using MyApp.Domain.Entities.ECommerce;
-using MyApp.Domain.Entities.NPI;
-using MyApp.Domain.Specifications.NPI;
 using MyApp.Infrastructure.ExternalServices.ECommerce.DTO;
-using MyApp.Infrastructure.ExternalServices.NPI.DTO;
-using System;
-using System.Collections.Generic;
-using System.Linq;
 using System.Net.Http.Json;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace MyApp.Infrastructure.ExternalServices.ECommerce
 {

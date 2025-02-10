@@ -1,6 +1,4 @@
-﻿using Newtonsoft.Json;
-
-namespace MyApp.Application.DTOs.Food
+﻿namespace MyApp.Application.DTOs.Food
 {
     public class RecipeDto
     {

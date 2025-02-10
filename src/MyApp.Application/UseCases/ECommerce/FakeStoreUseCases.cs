@@ -1,13 +1,7 @@
 ﻿using MyApp.Application.DTOs.ECommerce;
 using MyApp.Application.Interfaces.ECommerce;
 using MyApp.Domain.Abstractions.ECommerce;
-using MyApp.Domain.Abstractions.NPI;
 using MyApp.Domain.Entities.ECommerce;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace MyApp.Application.UseCases.ECommerce
 {

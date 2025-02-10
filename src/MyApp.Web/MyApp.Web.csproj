@@ -20,7 +20,6 @@
   <ItemGroup>
     <Folder Include="Pages\Management\" />
     <Folder Include="Pages\Recipe\" />
-    <Folder Include="wwwroot\data\" />
     <Folder Include="wwwroot\lib\bootstrap-icons\fonts\" />
   </ItemGroup>
 
