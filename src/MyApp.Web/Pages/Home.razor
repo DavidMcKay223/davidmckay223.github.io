@@ -49,7 +49,25 @@
                 </div>
                 <div class="card-body">
                     <p><strong>GitHub:</strong> <a href="https://github.com/DavidMcKay223/MyFoodApp" target="_blank">DavidMcKay223</a></p>
-                    <p><strong>MyFoodApp:</strong> Find recipes and suggestions fast and easy smart tags and PDF generation.</p>
+
+                    <div class="card mb-3">
+                        <div class="card-header bg-light">
+                            <h4 class="mb-0"><i class="bi bi-card-list"></i> MyFoodApp</h4>
+                        </div>
+                        <div class="card-body">
+                            <p class="text-muted">C# | LINQ | Blazor | .NET 9 | XUnit | Bogus | AutoMapper | FluentAssertions | Entity Framework Core | FluentValidation</p>
+                            @foreach (var foodSkill in SideProjectFoodAppCategories)
+                            {
+                                <strong>@foodSkill.Name</strong>
+                                <ul>
+                                    @foreach (var description in foodSkill.Skills)
+                                    {
+                                        <li>@description</li>
+                                    }
+                                </ul>
+                            }
+                        </div>
+                    </div>
                 </div>
             </div>
 
@@ -203,5 +221,13 @@
         new (){ Name = "EDI Integration for High-Volume Data:", Skills = new List<string> { "Developed robust SQL code and stored procedures to facilitate EDI integration for high-volume data synchronization (claims, rejections, transactions). This critical functionality enables daily processing of massive client data dumps (80,000+ records) and seamless data exchange with third-party systems." }},
         new (){ Name = "Streamlined Data Management:", Skills = new List<string> { "Created multiple website screens with grid and search capabilities for efficient management of documents, claims, examiner information, and organizations. Integrated modal screens for streamlined data entry and updates." }},
         new (){ Name = "Comprehensive PBM Solution:", Skills = new List<string> { "Delivered a complete PBM system for a client (PMN) specializing in ancillary and pharmacy solutions, addressing their core business needs for data processing, reporting, and integration." }}
+    };
+
+    private List<SkillCategory> SideProjectFoodAppCategories = new List<SkillCategory>()
+    {
+        new (){ Name = "Food Management:", Skills = ["Track ingredients and recipes, and food information."] },
+        new (){ Name = "Grocery Integration:", Skills = ["Sync with store sections, store lookup along with price checker."] },
+        new (){ Name = "Meal Recommendations:", Skills = ["Get meal suggestions, based on existing ingredients."] },
+        new (){ Name = "Grocery List:", Skills = ["Generates Recipes and Grocery List PDF."] }
     };
 }
