@@ -16,14 +16,93 @@ else
         @foreach (var recipe in Recipes!)
         {
             <div class="col">
-                <div class="card h-100 shadow-sm hover-shadow transition-all">
+                <div class="card h-100 shadow-sm hover-shadow-lg overflow-hidden transition-all">
+                    <div class="ratio ratio-16x9 position-relative rounded-top">
+                        @if (recipe.Photos?.Any() == true)
+                        {
+                            @if (recipe.Photos.Count == 1)
+                            {
+                                var photo = recipe.Photos.First();
+                                @if (photo.ImageData != null && photo.ImageContentType != null)
+                                {
+                                    <img src="data:@photo.ImageContentType;base64,@Convert.ToBase64String(photo.ImageData)"
+                                         class="d-block w-100 h-100 object-fit-cover rounded-top"
+                                         alt="@photo.Caption" />
+                                }
+                                else
+                                {
+                                    <div class="d-flex align-items-center justify-content-center bg-secondary text-white h-100 rounded-top">
+                                        <i class="bi bi-image fs-1"></i>
+                                    </div>
+                                }
+                            }
+                            else // Multiple photos - Use Carousel
+                            {
+                                <div id="recipeCarousel_@recipe.RecipeId" class="carousel slide h-100" data-bs-ride="carousel" data-bs-interval="5000">
+                                    <div class="carousel-inner h-100 rounded-top">
+                                        @foreach (var (photo, index) in recipe.Photos.Select((p, i) => (p, i)))
+                                        {
+                                            <div class="carousel-item h-100 @(index == GetActiveIndex(recipe.RecipeId) ? "active" : "")">
+                                                @if (photo.ImageData != null && photo.ImageContentType != null)
+                                                {
+                                                    <img src="data:@photo.ImageContentType;base64,@Convert.ToBase64String(photo.ImageData)"
+                                                         class="d-block w-100 h-100 object-fit-cover rounded-top"
+                                                         alt="@photo.Caption" />
+                                                }
+                                                else
+                                                {
+                                                    <div class="d-flex align-items-center justify-content-center bg-secondary text-white h-100 rounded-top">
+                                                        <i class="bi bi-image fs-1"></i>
+                                                    </div>
+                                                }
+                                                @* @if (!string.IsNullOrEmpty(photo.Caption))
+                                                {
+                                                    <div class="carousel-caption bg-dark bg-opacity-50 rounded">
+                                                        <p class="mb-0">@photo.Caption</p>
+                                                    </div>
+                                                } *@
+                                            </div>
+                                        }
+                                    </div>
+                                    @if (recipe.Photos.Count > 1)
+                                    {
+                                        <button class="carousel-control-prev" type="button" data-bs-target="#recipeCarousel_@recipe.RecipeId" data-bs-slide="prev">
+                                            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                            <span class="visually-hidden">Previous</span>
+                                        </button>
+                                        <button class="carousel-control-next" type="button" data-bs-target="#recipeCarousel_@recipe.RecipeId" data-bs-slide="next">
+                                            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                            <span class="visually-hidden">Next</span>
+                                        </button>
+                                        <div class="carousel-indicators">
+                                            @for (int i = 0; i < recipe.Photos.Count; i++)
+                                            {
+                                                <button type="button"
+                                                        data-bs-target="#recipeCarousel_@recipe.RecipeId"
+                                                        data-bs-slide-to="@i"
+                                                        class="@(i == GetActiveIndex(recipe.RecipeId) ? "active" : "")"
+                                                        aria-current="@(i == GetActiveIndex(recipe.RecipeId) ? "true" : "false")"
+                                                        aria-label="Slide @(i + 1)"></button>
+                                            }
+                                        </div>
+                                    }
+                                </div>
+                            }
+                        }
+                        else
+                        {
+                            <div class="d-flex align-items-center justify-content-center bg-light text-muted h-100 rounded-top">
+                                <i class="bi bi-image fs-1"></i>
+                            </div>
+                        }
+                    </div>
+
                     <div class="card-body d-flex flex-column">
                         <div class="mb-3">
                             <h5 class="card-title fw-bold text-primary mb-3">@recipe.Title</h5>
                             <p class="card-text text-muted line-clamp-3">@recipe.Description</p>
                         </div>
 
-                        <!-- Metadata Grid -->
                         <div class="row g-2 small mb-3">
                             <div class="col-6">
                                 <div class="d-flex align-items-center text-muted">
@@ -51,7 +130,6 @@ else
                             </div>
                         </div>
 
-                        <!-- Ingredients Preview -->
                         <div class="mb-3">
                             <h6 class="text-secondary small">Main Ingredients:</h6>
                             <div class="d-flex flex-wrap gap-2">
@@ -70,7 +148,6 @@ else
                             </div>
                         </div>
 
-                        <!-- Meal Suggestions -->
                         @if (recipe.MealSuggestions.Any())
                         {
                             <div class="mt-auto">
@@ -86,7 +163,6 @@ else
                         }
                     </div>
 
-                    <!-- Footer with Actions -->
                     <div class="card-footer bg-transparent border-top-0">
                         <div class="d-flex justify-content-between align-items-center">
                             <span class="text-muted small">
@@ -96,17 +172,21 @@ else
                                 @if (OnDisplay.HasDelegate)
                                 {
                                     <button class="btn btn-outline-primary btn-sm me-2"
-                                    @onclick="() => OnDisplay.InvokeAsync(recipe)">
+                                            @onclick="() => OnDisplay.InvokeAsync(recipe)">
                                         <i class="bi bi-view-list me-2"></i>View
                                     </button>
                                 }
                                 @if (!RecipeIdList.Contains(recipe))
                                 {
-                                    <button class="btn btn-primary btn-sm" @onclick="() => AddRecipeToDownload.InvokeAsync(recipe)"><i class="bi bi-download"></i>Add Download</button>
+                                    <button class="btn btn-primary btn-sm" @onclick="() => AddRecipeToDownload.InvokeAsync(recipe)">
+                                        <i class="bi bi-download"></i>Add Download
+                                    </button>
                                 }
                                 else
                                 {
-                                    <button class="btn btn-danger btn-sm" @onclick="() => RemoveRecipeFromDownload.InvokeAsync(recipe)"><i class="bi bi-trash"></i>Remove Download</button>
+                                    <button class="btn btn-danger btn-sm" @onclick="() => RemoveRecipeFromDownload.InvokeAsync(recipe)">
+                                        <i class="bi bi-trash"></i>Remove Download
+                                    </button>
                                 }
                             </div>
                         </div>
@@ -122,7 +202,7 @@ else
     public List<RecipeDto>? Recipes { get; set; }
 
     [Parameter]
-    public List<RecipeDto> RecipeIdList{ get; set; }
+    public List<RecipeDto> RecipeIdList { get; set; }
 
     [Parameter]
     public EventCallback<RecipeDto> OnDisplay { get; set; }
@@ -132,4 +212,34 @@ else
 
     [Parameter]
     public EventCallback<RecipeDto> RemoveRecipeFromDownload { get; set; }
+
+    private readonly Dictionary<int, int> activeIndices = new();
+
+    private int GetActiveIndex(int recipeId)
+    {
+        return activeIndices.TryGetValue(recipeId, out var index) ? index : 0;
+    }
+
+    private void SetActiveIndex(int recipeId, int index)
+    {
+        activeIndices[recipeId] = index;
+    }
 }
+
+<style>
+    .hover-shadow-lg {
+        transition: transform 0.2s ease, box-shadow 0.2s ease;
+    }
+
+    .hover-shadow-lg:hover {
+        transform: translateY(-3px);
+        box-shadow: 0 1rem 3rem rgba(0,0,0,0.1) !important;
+    }
+
+    .line-clamp-3 {
+        display: -webkit-box;
+        -webkit-line-clamp: 3;
+        -webkit-box-orient: vertical;
+        overflow: hidden;
+    }
+</style>

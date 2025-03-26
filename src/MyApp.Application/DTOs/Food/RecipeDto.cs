@@ -15,5 +15,7 @@
         public List<IngredientDto> Ingredients { get; set; } = [];
 
         public List<RecipeMealSuggestionDto> MealSuggestions { get; set; } = [];
+
+        public List<RecipePhotoDto> Photos { get; set; } = [];
     }
 }
