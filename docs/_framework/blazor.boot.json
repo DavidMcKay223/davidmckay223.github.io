@@ -1,7 +1,7 @@
 {
   "mainAssemblyName": "MyApp.Web",
   "resources": {
-    "hash": "sha256-0jRmKvKT/nBTfMNtpRFveXduyxk4OCi7PLFfDcw1OmU=",
+    "hash": "sha256-QRNKP6jzMf5bXE3BcFfZMbaIKsK7OZrUL46xAeYZz70=",
     "fingerprinting": {
       "BouncyCastle.Cryptography.4gsqqg4tak.wasm": "BouncyCastle.Cryptography.wasm",
       "itext.barcodes.yyt32x4i8d.wasm": "itext.barcodes.wasm",
@@ -39,7 +39,7 @@
       "MyApp.Domain.jld5kajykn.wasm": "MyApp.Domain.wasm",
       "MyApp.Infrastructure.558gzs09m5.wasm": "MyApp.Infrastructure.wasm",
       "MyApp.Shared.epxsla95sj.wasm": "MyApp.Shared.wasm",
-      "MyApp.Web.c4o02f3vd7.wasm": "MyApp.Web.wasm",
+      "MyApp.Web.2jsq1w3cpp.wasm": "MyApp.Web.wasm",
       "netstandard.k64qi0uy4a.wasm": "netstandard.wasm",
       "Newtonsoft.Json.qkbufwhni2.wasm": "Newtonsoft.Json.wasm",
       "System.AppContext.ktolvcnwwi.wasm": "System.AppContext.wasm",
@@ -175,7 +175,7 @@
       "MyApp.Domain.jld5kajykn.wasm": "sha256-6X+eKXuxh0j4S/vg1NY53ZMQrDBrG7ylw1gE3nzVN+E=",
       "MyApp.Infrastructure.558gzs09m5.wasm": "sha256-OcCgxxHQqFBtOwBUuzf/ItnmBGdyPlNi2ky5PrxdIVY=",
       "MyApp.Shared.epxsla95sj.wasm": "sha256-XvmvYKoujefPEZrPH5W82AyxhEC2qE/hMZwbXBGndBU=",
-      "MyApp.Web.c4o02f3vd7.wasm": "sha256-HEhTKToArRNyX3GeTaOTW9kHpmIVRXbAvUGMsSKQdZ0=",
+      "MyApp.Web.2jsq1w3cpp.wasm": "sha256-EpxZdzIRx+iOeMjnrM8Yw1NWfOhDE1odEoMxbSGC5BM=",
       "netstandard.k64qi0uy4a.wasm": "sha256-VLZL/2dI/FWFBGvmaUXCIdWw5EqOSC/gyipO1k0+W/s=",
       "Newtonsoft.Json.qkbufwhni2.wasm": "sha256-GlXMWKvDs45M2pACoR3Y4Qh8mcrOZGljqmvJY+6JZ5s=",
       "System.AppContext.ktolvcnwwi.wasm": "sha256-GPBLj0qKIxTJMoPWQSQi3TisFcVmcOxcDINIoaj5QJs=",
