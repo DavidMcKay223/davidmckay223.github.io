@@ -1,45 +1,298 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
-    <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>MyApp</title>
-    <base href="/" />
-    <link rel="stylesheet" href="lib/bootstrap/dist/css/bootstrap.min.css" />
-    <link rel="stylesheet" href="lib/bootstrap-icons/bootstrap-icons.css" />
-    <link rel="stylesheet" href="css/app.css" />
-    <link rel="icon" type="image/png" href="favicon.png" />
-    <link href="MyApp.Web.styles.css" rel="stylesheet" />
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>David McKay — Software Engineer</title>
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" />
+<style>
+    body { background-color: #121212; color: #f1f1f1; font-family: 'Segoe UI', sans-serif; }
+    a { color: #1E90FF; text-decoration: none; }
+    a:hover { text-decoration: underline; }
+    .section-card {
+    padding: 2rem;
+    border-radius: 0.5rem;
+    background-color: #1e1e1e;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.3);
+    }
+    h2 { border-bottom: 2px solid #333; padding-bottom: 0.5rem; margin-bottom: 1rem; }
+    .sidebar {
+    background-color: #1a1a1a;
+    padding: 2rem;
+    border-radius: 0.5rem;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.3);
+    }
+    .sidebar img { max-width: 100%; border-radius: 50%; margin-bottom: 1rem; }
+    header h1, header p { color: #f1f1f1; }
+    footer { background-color: #1a1a1a; color: #aaa; }
+
+    @media (max-width: 768px) {
+        .mobile-order {
+            display: flex;
+            flex-direction: column;
+            gap: 1.5rem;
+        }
+        
+        .sidebar, .section-card {
+            margin-bottom: 0;
+        }
+        .sidebar { order: 1; }
+        #education { order: 2; }
+        .col-lg-8 { order: 3; }
+    }
+</style>
 </head>
-
 <body>
-    <div id="app">
-        <svg class="loading-progress">
-            <circle r="40%" cx="50%" cy="50%" />
-            <circle r="40%" cx="50%" cy="50%" />
-        </svg>
-        <div class="loading-progress-text"></div>
+
+<header class="bg-dark text-white py-5 mb-4">
+    <div class="container text-center">
+        <h1 class="mb-1">David McKay</h1>
+        <p class="lead mb-0">Software Engineer</p>
+    </div> 
+</header>
+
+<main class="container">
+  <div class="row g-4">
+
+    <!-- Main content -->
+    <div class="col-lg-8 order-lg-1 d-flex flex-column gap-3">
+      <section id="summary" class="section-card">
+        <h2>Summary</h2>
+        <p>
+            Highly motivated and results-driven Software Engineer with 6+ years of experience in designing, developing, and implementing 
+            robust and scalable applications using C#, .NET, and related technologies. Passionate about clean code, efficient testing 
+            practices, and collaborative team environments. Eager to contribute expertise and drive innovation in a challenging and 
+            rewarding role.
+        </p>
+      </section>
+
+      <section id="skills" class="section-card">
+        <h2>Technical Skills</h2>
+
+        <div class="row g-4">
+            <div class="col-12 col-md-6 col-lg-4">
+                <h5 class="fw-bold mb-2">Core Technologies</h5>
+                <ul class="list-unstyled mb-0">
+                    <li>C#</li>
+                    <li>.NET 9 / .NET Core</li>
+                    <li>Blazor</li>
+                    <li>Java</li>
+                    <li>C/C++</li>
+                </ul>
+            </div>
+
+            <div class="col-12 col-md-6 col-lg-4">
+                <h5 class="fw-bold mb-2">Web & API Development</h5>
+                <ul class="list-unstyled mb-0">
+                    <li>Web API</li>
+                    <li>Bootstrap</li>
+                    <li>Razor Pages</li>
+                    <li>SOAP</li>
+                    <li>RESTful</li>
+                </ul>
+            </div>
+
+            <div class="col-12 col-md-6 col-lg-4">
+                <h5 class="fw-bold mb-2">Database & ORM</h5>
+                <ul class="list-unstyled mb-0">
+                    <li>Entity Framework</li>
+                    <li>SQL</li>
+                    <li>LINQ</li>
+                </ul>
+            </div>
+
+            <div class="col-12 col-md-6 col-lg-4">
+                <h5 class="fw-bold mb-2">Testing & Validation</h5>
+                <ul class="list-unstyled mb-0">
+                    <li>XUnit</li>
+                    <li>Bogus</li>
+                    <li>Shouldly</li>
+                    <li>FluentValidation</li>
+                </ul>
+            </div>
+
+            <div class="col-12 col-md-6 col-lg-4">
+                <h5 class="fw-bold mb-2">Tools & Collaboration</h5>
+                <ul class="list-unstyled mb-0">
+                    <li>Git</li>
+                    <li>SVN</li>
+                    <li>JIRA</li>
+                </ul>
+            </div>
+
+            <div class="col-12 col-md-6 col-lg-4">
+                <h5 class="fw-bold mb-2">Data & Utilities</h5>
+                <ul class="list-unstyled mb-0">
+                    <li>JSON</li>
+                    <li>XML</li>
+                    <li>AutoMapper</li>
+                    <li>Newtonsoft Json</li>
+                    <li>T4</li>
+                </ul>
+            </div>
+        </div>
+      </section>
+
+      <section id="experience" class="section-card">
+        <h2>Professional Experience</h2>
+
+        <div class="mb-4">
+            <h5 class="fw-bold mb-0">Senior Software Engineer</h5>
+            <small class="mb-0">Manageware LLC, Mesa, AZ — September 2016 - October 2022</small>
+
+            <div class="mt-3 p-3 border rounded bg-dark">
+                <h6 class="fw-bold mb-1">Bill Review Engine</h6>
+                <small class="mb-0">Backend | .NET | C# | SQL | LINQ | Web Service</small>
+                <br><br>
+
+                <strong>New Framework Design:</strong>
+                <ul class="mt-1 mb-2">
+                    <li>Developed a scalable framework on top of existing code base, using C# and .NET, reducing state-specific code by 80% via delegates and class extensions.</li>
+                </ul>
+
+                <strong>Improved Unit Testing:</strong>
+                <ul class="mt-1 mb-2">
+                    <li>Automated test results for JIRA reporting. Enhanced execution time by 80% using asserts collection and smart test-driven development.</li>
+                </ul>
+
+                <strong>Developer Mentorship:</strong>
+                <ul class="mt-1 mb-2">
+                    <li>Provided code review and mentorship to junior developers, promoting best practices and fostering understanding of the new system's architecture and benefits.</li>
+                </ul>
+
+                <strong>Real-time NPI Data:</strong>
+                <ul class="mt-1 mb-2">
+                    <li>Integrated the NPI Registry RESTful API, enabling real-time NPI data retrieval and eliminating reliance on outdated local data.</li>
+                </ul>
+            </div>
+
+            <div class="mt-3 p-3 border rounded bg-dark">
+                <h6 class="fw-bold mb-1">Report Module</h6>
+                <small class="mb-0">Frontend | Backend | .NET | C# | SQL | LLBGEN | Telerik</small>
+                <br><br>
+
+                <strong>Automated Reporting System:</strong>
+                <ul class="mt-1 mb-2">
+                    <li>Designed and developed a full-stack solution to automate company reports, enabling users to schedule subscriptions or run reports on-demand.</li>
+                </ul>
+
+                <strong>Comprehensive Report Management:</strong>
+                <ul class="mt-1 mb-2">
+                    <li>Designed a user-friendly website for managing email queues, standard reports, custom reports (including queue status), and subscription schedules.</li>
+                </ul>
+
+                <strong>Access Control:</strong>
+                <ul class="mt-1 mb-2">
+                    <li>Implemented Access Control Lists (ACLs) to ensure data integrity and restrict report access based on user roles.</li>
+                </ul>
+            </div>
+
+            <div class="mt-3 p-3 border rounded bg-dark">
+                <h6 class="fw-bold mb-1">PanDora - Authentication</h6>
+                <small class="mb-0">Frontend | Backend | .NET | C# | SQL | LLBLGEN | Telerik</small>
+                <br><br>
+
+                <strong>Unified Application Access:</strong>
+                <ul class="mt-1 mb-2">
+                    <li>Developed PanDora, a centralized dashboard and widget portal, providing users with a single point of access to multiple applications, eliminating the need for separate logins and navigation.</li>
+                </ul>
+
+                <strong>Secure Authentication:</strong>
+                <ul class="mt-1 mb-2">
+                    <li>Engineered a secure authentication system, including a redesigned SQL database with hashed passwords, a user-friendly login screen, password reset functionality, and seamless Single Sign-On (SSO) integration.</li>
+                </ul>
+
+                <strong>Intuitive User Interface:</strong>
+                <ul class="mt-1 mb-2">
+                    <li>Created an intuitive, tile-based dashboard using Telerik web controls, simplifying application navigation and enhancing the user experience.</li>
+                </ul>
+            </div>
+
+            <div class="mt-3 p-3 border rounded bg-dark">
+                <h6 class="fw-bold mb-1">Pharmacy Benefit Management System</h6>
+                <small class="mb-0">Frontend | Backend | .NET | C# | SQL | LLBLGEN | Telerik</small>
+                <br><br>
+
+                <strong>EDI Integration for High-Volume Data:</strong>
+                <ul class="mt-1 mb-2">
+                    <li>Developed robust SQL code and stored procedures to facilitate EDI integration for high-volume data synchronization (claims, rejections, transactions). This critical functionality enables daily processing of massive client data dumps (80,000+ records) and seamless data exchange with third-party systems.</li>
+                </ul>
+
+                <strong>Streamlined Data Management:</strong>
+                <ul class="mt-1 mb-2">
+                    <li>Created multiple website screens with grid and search capabilities for efficient management of documents, claims, examiner information, and organizations. Integrated modal screens for streamlined data entry and updates.</li>
+                </ul>
+
+                <strong>Comprehensive PBM Solution:</strong>
+                <ul class="mt-1 mb-2">
+                    <li>Delivered a complete PBM system for a client (PMN) specializing in ancillary and pharmacy solutions, addressing their core business needs for data processing, reporting, and integration.</li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="mb-4">
+            <h5 class="fw-bold mb-0">Contract Factory Employee</h5>
+            <small class="mb-0">Boeing contract CopaHealth, Gilbert, AZ — December 2024 - Current</small>
+
+            <div class="mt-3 p-3 border rounded bg-dark">
+                <h6 class="fw-bold mb-1">Composite Fulfillment Center</h6>
+                <small class="mb-0">Analyst | Hands on Work</small>
+                <br><br>
+
+                <strong>Clean Room:</strong>
+                <ul class="mt-1 mb-2">
+                    <li>Carefully inspect part packages for any missing components or defects, making sure everything is ready for assembly.</li>
+                    <li>Collaborate with teammates to roll parts through sections, sort them efficiently, and assemble complete kits for Apache-64 helicopter blades.</li>
+                    <li>Finalize each kit section with attention to detail, ensuring the parts are organized and ready for the next stage of production.</li>
+                </ul>
+
+                <strong>Daily Production Tasks:</strong>
+                <ul class="mt-1 mb-2">
+                    <li>Clean, build, and test vacuum ports to support production workflow.</li>
+                    <li>Detangle, test, and wrap thermal cables, preparing them for timely integration into assemblies.</li>
+                </ul>
+            </div>
+        </div>
+      </section>
+
+      <!--<section id="projects" class="section-card">
+        <h2>Side Projects</h2>
+        <p>
+
+        </p>
+      </section>-->
     </div>
 
-    <div id="blazor-error-ui">
-        An unhandled error has occurred.
-        <a href="." class="reload">Reload</a>
-        <span class="dismiss">🗙</span>
-    </div>
-    <script src="_framework/blazor.webassembly.js"></script>
-    <script src="lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+    <!-- Sidebar (right side on desktop) -->
+    <aside class="col-lg-4 order-lg-2 d-flex flex-column gap-3">
+        <div class="sidebar text-center">
+            <img src="img/profile_picture.jpg" alt="David McKay">
+            <h5>Contact Info</h5>
+            <p>
+                <a href="mailto:david.mckay.dev@gmail.com">Email Me</a><br>
+                <a href="https://github.com/davidmckay223" target="_blank">GitHub</a><br>
+                <a href="https://www.linkedin.com/in/david-mckay-dev" target="_blank">LinkedIn</a>
+            </p>
+        </div>
 
-    <script>
-        window.downloadFile = (fileName, contentType, byteBase64) => {
-            const link = document.createElement('a');
-            link.href = `data:${contentType};base64,${byteBase64}`;
-            link.download = fileName;
-            document.body.appendChild(link);
-            link.click();
-            document.body.removeChild(link);
-        };
-    </script>
+        <section id="education" class="section-card">
+            <h2>Education</h2>
+            <div class="mb-3">
+                <h5 class="fw-bold mb-1">Arizona State University, Tempe, AZ</h5>
+                <p class="mb-0">BS in Computer Science, Graduated 2016, GPA 3.51</p>
+            </div>
+        </section>
+    </aside>
+
+  </div>
+</main>
+
+<footer class="text-center py-3 mt-4">
+  <div class="container">
+    <small>&copy; 2025 David McKay. All rights reserved.</small>
+  </div>
+</footer>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
 </body>
-
 </html>
