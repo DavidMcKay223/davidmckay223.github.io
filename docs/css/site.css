@@ -62,3 +62,10 @@ footer {
         margin-bottom: 0;
     }
 }
+
+.course-grade {
+  display: inline-block;
+  width: 25px;
+  text-align: left;
+  font-family: monospace;
+}
